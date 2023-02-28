@@ -1,0 +1,14 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #c82e2e;
+
+body {
+    margin: 0;
+}
+
+div {
+    background-color: aquamarine;
+    button {
+        font: 100% $font-stack;
+        color: $primary-color;
+    }
+}

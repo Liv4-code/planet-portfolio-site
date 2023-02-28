@@ -1,7 +1,16 @@
-import React from "react";
+import "./Home.scss";
+import backgroundImage from "./images/desert-sand-landscape.jpeg";
 
 function Home() {
-    return <h1>Hello</h1>;
+    return (
+        <div>
+            <img
+                src={backgroundImage}
+                alt="Home Page Background"
+                style={{ width: "100vw" }}
+            />
+        </div>
+    );
 }
 
 export default Home;
