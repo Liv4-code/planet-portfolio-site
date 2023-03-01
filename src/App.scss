@@ -1,14 +1,41 @@
 $font-stack: Helvetica, sans-serif;
-$primary-color: #c82e2e;
+$primary-color: #212121;
+$breakpoint-tablet: 768px;
 
-body {
+* {
     margin: 0;
+    padding: 0;
 }
 
-div {
-    background-color: aquamarine;
-    button {
-        font: 100% $font-stack;
-        color: $primary-color;
+a {
+    color: #363636;
+    text-decoration: none;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 90vw;
+    height: 15%;
+    background-color: $primary-color;
+    border-radius: 10rem 10rem 0 0;
+    .navigation__button {
+        width: 120px;
+        margin: 15px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .navigation {
+        width: 100vw;
     }
 }

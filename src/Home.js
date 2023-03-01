@@ -1,14 +1,12 @@
 import "./Home.scss";
-import backgroundImage from "./images/desert-sand-landscape.jpeg";
 
 function Home() {
     return (
-        <div>
-            <img
-                src={backgroundImage}
-                alt="Home Page Background"
-                style={{ width: "100vw" }}
-            />
+        <div className="container">
+            <pre>Welcome Distant traveller</pre>
+            <pre>My name is Olivia</pre>
+            <pre>I'm a Web Developer</pre>
+            <pre>Come, and explore my planet</pre>
         </div>
     );
 }

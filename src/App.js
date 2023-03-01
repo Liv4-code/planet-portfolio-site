@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Home from "./Home";
 import "./App.scss";
 
@@ -10,19 +9,26 @@ function getRandomAnimal() {
 
 function App() {
     return (
-        <div>
-            <div>"You are currently on planet " + "Home"</div>
+        <div className="container">
             <div>
                 <Home />
             </div>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Get In Touch</li>
-                </ul>
-            </nav>
+            <div className="navigation-container">
+                <nav className="navigation">
+                    <button className="navigation__button">
+                        <a href="#">Home</a>
+                    </button>
+                    <button className="navigation__button">
+                        <a href="#">About</a>
+                    </button>
+                    <button className="navigation__button">
+                        <a href="#">Projects</a>
+                    </button>
+                    <button className="navigation__button">
+                        <a href="#">Get In Touch</a>
+                    </button>
+                </nav>
+            </div>
         </div>
     );
 }
