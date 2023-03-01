@@ -1,6 +1,7 @@
 $font-stack: Helvetica, sans-serif;
-$primary-color: #212121;
-$breakpoint-tablet: 768px;
+$primary-color: #c1c1c1;
+$breakpoint-laptop: 1024px;
+$breakpoint-tablet: 769px;
 
 * {
     margin: 0;
@@ -25,12 +26,127 @@ a {
     bottom: 0;
     width: 90vw;
     height: 15%;
-    background-color: $primary-color;
+    background: rgb(107, 107, 107);
+    background: linear-gradient(
+        355deg,
+        rgba(107, 107, 107, 1) 0%,
+        rgba(156, 156, 156, 1) 39%,
+        rgba(230, 230, 230, 1) 100%
+    );
     border-radius: 10rem 10rem 0 0;
+    box-shadow: -6px -10px 20px -6px rgba(46, 46, 46, 0.75);
+
     .navigation__button {
-        width: 120px;
-        margin: 15px;
-        padding: 10px;
+        margin: 2%;
+
+        border-radius: 10px;
+
+        box-shadow: 0px 3px rgba(128, 128, 128, 1),
+            /* gradient effects */ 0px 4px rgba(118, 118, 118, 1),
+            0px 5px rgba(108, 108, 108, 1), 0px 6px rgba(98, 98, 98, 1),
+            0px 7px rgba(88, 88, 88, 1), 0px 8px rgba(78, 78, 78, 1),
+            0px 14px 6px -1px rgba(128, 128, 128, 1); /* shadow */
+
+        transition: box-shadow 0.1s ease-in-out;
+    }
+
+    .navigation__button a {
+        background: linear-gradient(to bottom, #bcc6cc, #eee, #bcc6cc);
+
+        background-image: 
+        /* gloss gradient */ linear-gradient(
+                linear,
+                left bottom,
+                left top,
+                color-stop(50%, rgba(255, 255, 255, 0)),
+                color-stop(50%, rgba(255, 255, 255, 0.3)),
+                color-stop(100%, rgba(255, 255, 255, 0.2))
+            ),
+            /* dark outside gradient */
+                linear-gradient(
+                    linear,
+                    left top,
+                    right top,
+                    color-stop(0%, rgba(210, 210, 210, 0.3)),
+                    color-stop(20%, rgba(210, 210, 210, 0)),
+                    color-stop(80%, rgba(210, 210, 210, 0)),
+                    color-stop(100%, rgba(210, 210, 210, 0.3))
+                ),
+            /* light inner gradient */
+                linear-gradient(
+                    linear,
+                    left top,
+                    right top,
+                    color-stop(0%, rgba(255, 255, 255, 0)),
+                    color-stop(20%, rgba(255, 255, 255, 0.5)),
+                    color-stop(80%, rgba(255, 255, 255, 0.5)),
+                    color-stop(100%, rgba(255, 255, 255, 0))
+                ),
+            /* diagonal line pattern */
+                linear-gradient(
+                    linear,
+                    0% 100%,
+                    100% 0%,
+                    color-stop(0%, rgba(255, 255, 255, 0)),
+                    color-stop(40%, rgba(255, 255, 255, 0)),
+                    color-stop(40%, #d2d2d1),
+                    color-stop(60%, #d2d2d1),
+                    color-stop(60%, rgba(255, 255, 255, 0)),
+                    color-stop(100%, rgba(255, 255, 255, 0))
+                );
+
+        box-shadow: 0px -1px #fff, /* top highlight */ 0px 1px 1px #ffffff; /* bottom edge */
+        background-size: 100%, 100%, 100%, 4px 4px;
+        border-radius: 10px;
+        transition: transform 0.1s ease-in-out;
+        display: inline-block;
+        padding: 10px 40px 10px 40px;
+        color: #3a474d;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .navigation__button a:hover {
+        color: #363636;
+        cursor: pointer;
+    }
+
+    .navigation__button:active {
+        box-shadow: 0px 3px rgba(128, 128, 128, 1),
+            0px 4px rgba(118, 118, 118, 1), 0px 5px rgba(108, 108, 108, 1),
+            0px 6px rgba(98, 98, 98, 1), 0px 7px rgba(88, 88, 88, 1),
+            0px 8px rgba(78, 78, 78, 1),
+            0px 10px 2px 0px rgba(128, 128, 128, 0.6); /* shadow */
+    }
+
+    .navigation__button:active span {
+        transform: translate(0, 80px); /* depth of button press */
+    }
+
+    .navigation__button a:after {
+        content: "";
+        top: 0;
+        transform: translateX(100%) rotate(30deg);
+        width: 300%;
+        height: 300%;
+        position: absolute;
+        z-index: 1;
+        background: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.8) 50%,
+            rgba(128, 186, 232, 0) 99%,
+            rgba(128, 186, 232, 0) 100%
+        );
+        content: "";
+        display: block;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        right: 14px;
+        top: 12px;
+        color: #363636;
+        font-size: 12px;
     }
 }
 
