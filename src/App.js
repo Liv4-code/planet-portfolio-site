@@ -1,12 +1,6 @@
 import Home from "./Home";
 import "./App.scss";
 
-function getRandomAnimal() {
-    const animals = ["cat", "dog", "gator", "cow", "bird", "horse"];
-
-    return animals[Math.floor(Math.random() * animals.length)];
-}
-
 function App() {
     return (
         <div className="container">
