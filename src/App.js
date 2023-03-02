@@ -15,30 +15,43 @@ function App() {
                 <nav className="navigation">
                     <button className="navigation__button">
                         <span>
-                            <img src={homeIcon} alt="Home Button Icon" />
+                            <img
+                                className="navigation__button-icon"
+                                src={homeIcon}
+                                alt="Home Button Icon"
+                            />
+                            <p className="navigation__button-text">Home</p>
                         </span>
-                        {/* <span>Home</span> */}
-                    </button>
-                    <button className="navigation__button">
-                        <span>
-                            <img src={aboutIcon} alt="About Button Icon" />
-                        </span>
-                        {/* <span>About</span> */}
                     </button>
                     <button className="navigation__button">
                         <span>
                             <img
-                                src={projectsIcon}
-                                alt="Projects Button Icon"
+                                className="navigation__button-icon"
+                                src={aboutIcon}
+                                alt="About Button Icon"
                             />
+                            <p className="navigation__button-text">About</p>
                         </span>
-                        {/* <span>Projects</span> */}
                     </button>
                     <button className="navigation__button">
                         <span>
-                            <img src={contactIcon} alt="Contact Button Icon" />
+                            <img
+                                className="navigation__button-icon"
+                                src={projectsIcon}
+                                alt="Projects Button Icon"
+                            />
+                            <p className="navigation__button-text">Projects</p>
                         </span>
-                        {/* <span>Reach Out</span> */}
+                    </button>
+                    <button className="navigation__button">
+                        <span>
+                            <img
+                                className="navigation__button-icon"
+                                src={contactIcon}
+                                alt="Contact Button Icon"
+                            />
+                            <p className="navigation__button-text">Contact</p>
+                        </span>
                     </button>
                 </nav>
             </div>

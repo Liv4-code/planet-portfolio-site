@@ -36,7 +36,6 @@ a {
     box-shadow: -6px -10px 20px -6px rgba(46, 46, 46, 0.75);
 
     .navigation__button {
-        border: none;
         margin: 2%;
         border-radius: 10px;
         box-shadow: 0px 3px rgba(128, 128, 128, 1),
@@ -44,16 +43,6 @@ a {
             0px 6px rgba(98, 98, 98, 1), 0px 7px rgba(88, 88, 88, 1),
             0px 8px rgba(78, 78, 78, 1),
             0px 14px 6px -1px rgba(128, 128, 128, 1);
-    }
-
-    .navigation__button:active {
-        box-shadow: 0px 3px rgba(128, 128, 128, 1),
-            0px 4px rgba(118, 118, 118, 1), 0px 5px rgba(108, 108, 108, 1),
-            0px 6px rgba(98, 98, 98, 1), 0px 7px rgba(88, 88, 88, 1),
-            0px 8px rgba(78, 78, 78, 1),
-            0px 10px 2px 0px rgba(128, 128, 128, 0.6);
-        background: none;
-        border: none;
     }
 
     .navigation__button span {
@@ -68,12 +57,25 @@ a {
     }
 
     .navigation__button:active span {
-        transform: translate(0, 4px);
+        transform: scale(1, 1.1) translate(0, 1px);
     }
 
     .navigation__button span:hover {
         cursor: pointer;
     }
+
+    .navigation__button-icon {
+        display: none;
+    }
+}
+
+.navigation__button:active {
+    box-shadow: 0px 3px rgba(128, 128, 128, 1), 0px 4px rgba(118, 118, 118, 1),
+        0px 5px rgba(108, 108, 108, 1), 0px 6px rgba(98, 98, 98, 1),
+        0px 7px rgba(88, 88, 88, 1), 0px 8px rgba(78, 78, 78, 1),
+        0px 10px 2px 0px rgba(128, 128, 128, 0.6);
+    background: none;
+    transform: scale(1, 0.87);
 }
 
 @media (max-width: $breakpoint-tablet) {
@@ -82,11 +84,20 @@ a {
 
         .navigation__button {
             margin: 1%;
+            height: 45%;
         }
 
         .navigation__button span {
             font-size: 12px;
             padding: 10px;
+        }
+
+        .navigation__button-text {
+            display: none;
+        }
+
+        .navigation__button-icon {
+            display: block;
         }
     }
 }
