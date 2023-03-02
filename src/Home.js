@@ -1,12 +1,29 @@
 import "./Home.scss";
+import Typewriter from "typewriter-effect";
 
 function Home() {
     return (
         <div className="container">
-            <pre>Welcome Distant traveller</pre>
-            <pre>My name is Olivia</pre>
-            <pre>I'm a Web Developer</pre>
-            <pre>Come, and explore my planet</pre>
+            <div className="heading">
+                <Typewriter
+                    onInit={(typewriter) => {
+                        typewriter
+                            .changeDelay(60)
+                            .typeString("<h2>Welcome, distant traveller</h2>")
+                            .pauseFor(1000)
+                            .typeString("<h1>My name is Olivia</h1>")
+                            .pauseFor(1000)
+                            .changeDelay(100)
+                            .typeString("<h1>I'm a web developer</h1>")
+                            .pauseFor(500)
+                            .typeString("<h3>Come...</h3>")
+                            .pauseFor(1500)
+                            .deleteChars(7)
+                            .typeString("<h3>Explore my planet</h3>")
+                            .start();
+                    }}
+                />
+            </div>
         </div>
     );
 }

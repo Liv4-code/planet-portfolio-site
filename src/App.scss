@@ -26,12 +26,52 @@ a {
     bottom: 0;
     width: 90vw;
     height: 15%;
+    // background: linear-gradient(
+    //     355deg,
+    //     rgb(130, 130, 130) 0%,
+    //     rgb(171, 170, 170) 39%,
+    //     rgba(230, 230, 230, 1) 100%
+    // );
+    // background: rgb(14, 14, 14);
+    // background: linear-gradient(
+    //     351deg,
+    //     rgba(14, 14, 14, 1) 0%,
+    //     rgba(119, 117, 117, 1) 74%
+    // );
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
+    background: rgb(149, 149, 149); /* Old browsers */
+    background: -moz-linear-gradient(
+        top,
+        rgba(149, 149, 149, 1) 0%,
+        rgba(13, 13, 13, 1) 46%,
+        rgba(1, 1, 1, 1) 50%,
+        rgba(10, 10, 10, 1) 53%,
+        rgba(78, 78, 78, 1) 76%,
+        rgba(56, 56, 56, 1) 87%,
+        rgba(27, 27, 27, 1) 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        top,
+        rgba(149, 149, 149, 1) 0%,
+        rgba(13, 13, 13, 1) 46%,
+        rgba(1, 1, 1, 1) 50%,
+        rgba(10, 10, 10, 1) 53%,
+        rgba(78, 78, 78, 1) 76%,
+        rgba(56, 56, 56, 1) 87%,
+        rgba(27, 27, 27, 1) 100%
+    ); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(
-        355deg,
-        rgb(130, 130, 130) 0%,
-        rgb(171, 170, 170) 39%,
-        rgba(230, 230, 230, 1) 100%
-    );
+        to bottom,
+        rgba(149, 149, 149, 1) 0%,
+        rgba(13, 13, 13, 1) 46%,
+        rgba(1, 1, 1, 1) 50%,
+        rgba(10, 10, 10, 1) 53%,
+        rgba(78, 78, 78, 1) 76%,
+        rgba(56, 56, 56, 1) 87%,
+        rgba(27, 27, 27, 1) 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+
     border-radius: 10rem 10rem 0 0;
     box-shadow: -6px -10px 20px -6px rgba(46, 46, 46, 0.75);
 
@@ -84,7 +124,7 @@ a {
 
         .navigation__button {
             margin: 1%;
-            height: 45%;
+            height: 56px;
         }
 
         .navigation__button span {
