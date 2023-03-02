@@ -10,24 +10,16 @@ function App() {
             <div className="navigation-container">
                 <nav className="navigation">
                     <button className="navigation__button">
-                        <a href="#">
-                            <span>Home</span>
-                        </a>
+                        <span>Home</span>
                     </button>
                     <button className="navigation__button">
-                        <a href="#">
-                            <span>About</span>
-                        </a>
+                        <span>About</span>
                     </button>
                     <button className="navigation__button">
-                        <a href="#">
-                            <span>Projects</span>
-                        </a>
+                        <span>Projects</span>
                     </button>
                     <button className="navigation__button">
-                        <a href="#">
-                            <span>Reach Out</span>
-                        </a>
+                        <span>Reach Out</span>
                     </button>
                 </nav>
             </div>
