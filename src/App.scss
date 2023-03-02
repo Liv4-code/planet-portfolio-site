@@ -78,18 +78,15 @@ a {
 
 @media (max-width: $breakpoint-tablet) {
     .navigation {
-        flex-direction: column;
         width: 100vw;
 
         .navigation__button {
             margin: 1%;
-            width: 60%;
         }
 
         .navigation__button span {
-            width: 100%;
             font-size: 12px;
-            padding: 0;
+            padding: 10px;
         }
     }
 }
