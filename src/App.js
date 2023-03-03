@@ -1,5 +1,5 @@
-import Home from "./Home";
-// import About from "./About";
+// import Home from "./Home";
+import About from "./About";
 // import Projects from "./Projects";
 // import Contact from "./Contact";
 import "./App.scss";
@@ -12,8 +12,8 @@ function App() {
     return (
         <div className="container">
             <div>
-                <Home />
-                {/* <About /> */}
+                {/* <Home /> */}
+                <About />
                 {/* <Projects /> */}
                 {/* <Contact /> */}
             </div>
