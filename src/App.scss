@@ -3,9 +3,12 @@ $primary-color: #c1c1c1;
 $breakpoint-laptop: 1024px;
 $breakpoint-tablet: 769px;
 
+@import url("https://fonts.googleapis.com/css2?family=Genos:wght@100;200;300&display=swap");
+
 * {
     margin: 0;
     padding: 0;
+    font-family: "Genos", sans-serif;
 }
 
 a {
@@ -26,19 +29,7 @@ a {
     bottom: 0;
     width: 90vw;
     height: 15%;
-    // background: linear-gradient(
-    //     355deg,
-    //     rgb(130, 130, 130) 0%,
-    //     rgb(171, 170, 170) 39%,
-    //     rgba(230, 230, 230, 1) 100%
-    // );
-    // background: rgb(14, 14, 14);
-    // background: linear-gradient(
-    //     351deg,
-    //     rgba(14, 14, 14, 1) 0%,
-    //     rgba(119, 117, 117, 1) 74%
-    // );
-    background: rgb(149, 149, 149); /* Old browsers */
+    background: rgb(149, 149, 149);
     background: -moz-linear-gradient(
         top,
         rgba(149, 149, 149, 1) 0%,

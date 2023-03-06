@@ -24,3 +24,15 @@
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
 }
+
+.glass-card__heading {
+    margin: 8%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.glass-card__text {
+    padding: 5%;
+    font-size: 22px;
+    text-align: center;
+}
