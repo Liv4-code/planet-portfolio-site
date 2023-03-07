@@ -1,7 +1,7 @@
 // import Home from "./Home";
 // import About from "./About";
-// import Projects from "./Projects";
-import Contact from "./Contact";
+import Projects from "./Projects";
+// import Contact from "./Contact";
 import "./App.scss";
 import homeIcon from "./assets/home-1.svg";
 import aboutIcon from "./assets/personal-collection.svg";
@@ -14,8 +14,8 @@ function App() {
             <div>
                 {/* <Home /> */}
                 {/* <About /> */}
-                {/* <Projects /> */}
-                <Contact />
+                <Projects />
+                {/* <Contact /> */}
             </div>
             <div className="navigation-container">
                 <nav className="navigation">
