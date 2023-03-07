@@ -1,3 +1,8 @@
+$breakpoint-tablet: 768px;
+$breakpoint-cellphone: 600px;
+$breakpoint-sml-cellphone: 500px;
+$breakpoint-xsml-cellphone: 400px;
+
 .container {
     background: url("./assets/bubbleland.webp");
     background-size: cover;
@@ -8,12 +13,16 @@
 .glass-card {
     margin: auto;
     position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
     left: 0;
     right: 0;
     top: 0;
-    bottom: 16%;
+    bottom: 15%;
     padding: 5%;
-    width: 40%;
+    width: 600px;
     height: 70vh;
     padding: 15px;
     background: rgba(255, 255, 255, 0.1);
@@ -23,16 +32,61 @@
     border-right: 2px solid rgba(255, 255, 255, 0.2);
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
+
+    .glass-card__heading {
+        margin: 5%;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .glass-card__text {
+        padding: 0 5% 3% 5%;
+        font-size: 26px;
+        text-align: center;
+    }
 }
 
-.glass-card__heading {
-    margin: 5%;
-    font-size: 32px;
-    text-align: center;
+@media (max-width: $breakpoint-tablet) {
+    .glass-card {
+        width: 85%;
+    }
+
+    .glass-card__heading {
+        font-size: 8vw !important;
+    }
+
+    .glass-card__text {
+        padding: 5%;
+        font-size: 3.6vw !important;
+    }
 }
 
-.glass-card__text {
-    padding: 5%;
-    font-size: 24px;
-    text-align: center;
+@media (max-width: $breakpoint-cellphone) {
+    .glass-card {
+        height: 76vh;
+        justify-content: space-evenly;
+    }
+
+    .glass-card__heading {
+        padding-top: 4%;
+        height: 12%;
+    }
+
+    .glass-card__text {
+        padding: 0 5% 0 5%;
+        font-size: 4.5vw !important;
+        height: 85%;
+    }
+}
+
+@media (max-width: $breakpoint-sml-cellphone) {
+    .glass-card__text {
+        font-size: 5vw !important;
+    }
+}
+
+@media (max-width: $breakpoint-xsml-cellphone) {
+    .glass-card__text {
+        font-size: 5.5vw !important;
+    }
 }
