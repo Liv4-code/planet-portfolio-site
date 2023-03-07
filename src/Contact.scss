@@ -1,3 +1,95 @@
+$breakpoint-tablet: 768px;
+$breakpoint-cellphone: 600px;
+$breakpoint-sml-cellphone: 500px;
+$breakpoint-xsml-cellphone: 400px;
+
 .container {
-    background: url("./assets/underwater.jpeg");
+    background: url("./assets/underwater.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: rgb(241, 241, 241);
+}
+
+.glass-card {
+    margin: auto;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 15%;
+    padding: 5%;
+    width: 600px;
+    height: 70vh;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+
+    .glass-card__heading {
+        margin: 5%;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .glass-card__text {
+        padding: 0 5% 3% 5%;
+        font-size: 26px;
+        text-align: center;
+        width: 50%;
+        height: 50%;
+
+        a {
+            color: rgb(227, 131, 53);
+        }
+    }
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .glass-card {
+        width: 85%;
+    }
+
+    .glass-card__text {
+        padding: 5%;
+        font-size: 3.6vw !important;
+    }
+}
+
+@media (max-width: $breakpoint-cellphone) {
+    .glass-card {
+        height: 76vh;
+        justify-content: space-evenly;
+    }
+
+    .glass-card__heading {
+        padding-top: 4%;
+        height: 12%;
+    }
+
+    .glass-card__text {
+        padding: 0 5% 0 5%;
+        font-size: 5vw !important;
+    }
+}
+
+@media (max-width: $breakpoint-sml-cellphone) {
+    .glass-card__text {
+        font-size: 7vw !important;
+    }
+}
+
+@media (max-width: $breakpoint-xsml-cellphone) {
+    .glass-card__text {
+        font-size: 9vw !important;
+        width: 75% !important;
+    }
 }
