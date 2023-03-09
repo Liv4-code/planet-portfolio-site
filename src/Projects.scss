@@ -4,9 +4,9 @@ $breakpoint-sml-cellphone: 500px;
 $breakpoint-xsml-cellphone: 400px;
 
 .container {
-    background: url("./assets/forest.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
+    //     background: url("./assets/forest.webp");
+    //     background-size: cover;
+    //     background-repeat: no-repeat;
     height: 100vh;
     color: rgb(241, 241, 241);
     display: flex;
@@ -17,7 +17,6 @@ $breakpoint-xsml-cellphone: 400px;
         padding: 5%;
         width: 250px;
         height: 30vh;
-        padding: 15px;
         background: rgba(255, 255, 255, 0.1);
         box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
         border-radius: 30px;
@@ -26,4 +25,15 @@ $breakpoint-xsml-cellphone: 400px;
         border-bottom: 2px solid rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(10px);
     }
+}
+
+.container::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url("./assets/forest.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100vw;
 }
