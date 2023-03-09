@@ -5,7 +5,6 @@ $breakpoint-xsml-cellphone: 400px;
 
 .container {
     height: 100vh;
-    color: rgb(241, 241, 241);
     position: relative;
     display: flex;
     justify-content: center;
@@ -20,9 +19,9 @@ $breakpoint-xsml-cellphone: 400px;
 
     .card {
         margin: 0 5% 10% 5%;
-        padding: 5%;
+        padding: 3%;
         width: 30vw;
-        height: 20vh;
+        height: 30vh;
         background: rgba(255, 255, 255, 0.1);
         box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
         border-radius: 30px;
@@ -30,6 +29,24 @@ $breakpoint-xsml-cellphone: 400px;
         border-right: 2px solid rgba(255, 255, 255, 0.2);
         border-bottom: 2px solid rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(10px);
+    }
+
+    a {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card_project-title {
+        text-align: center;
+        color: rgb(241, 241, 241);
+    }
+
+    .card_project-description {
+        text-align: center;
+        color: rgb(241, 241, 241);
+        margin-top: 10px;
     }
 }
 
