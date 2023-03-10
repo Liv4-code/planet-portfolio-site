@@ -5,7 +5,7 @@ function Projects() {
         <div className="container">
             <div className="projects">
                 <div className="card">
-                    <a href="#">
+                    <a href="https://iotdashboard.netlify.app/" target="_blank">
                         <h3 className="card_project-title">
                             IOT Device Dashboard
                         </h3>
@@ -18,7 +18,7 @@ function Projects() {
                     </a>
                 </div>
                 <div className="card">
-                    <a href="#">
+                    <a href="#" target="_blank">
                         <h3 className="card_project-title">
                             Interior Design Website
                         </h3>
@@ -28,7 +28,7 @@ function Projects() {
                     </a>
                 </div>
                 <div className="card">
-                    <a href="#">
+                    <a href="https://www.wateraudit.ca/" target="_blank">
                         <h3 className="card_project-title">
                             Multi-Step Audit Tool
                         </h3>

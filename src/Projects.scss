@@ -13,7 +13,7 @@ $breakpoint-xsml-cellphone: 400px;
     .projects {
         position: absolute;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -35,18 +35,21 @@ $breakpoint-xsml-cellphone: 400px;
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .card_project-title {
         text-align: center;
         color: rgb(241, 241, 241);
+        font-size: 24px;
     }
 
     .card_project-description {
         text-align: center;
         color: rgb(241, 241, 241);
+        font-size: 1.2vw;
         margin-top: 10px;
+        height: 60%;
     }
 }
 
@@ -59,4 +62,28 @@ $breakpoint-xsml-cellphone: 400px;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .card_project-description {
+        font-size: 4vw !important;
+    }
+}
+
+@media (max-width: $breakpoint-cellphone) {
+    .card_project-description {
+        font-size: 4vw !important;
+    }
+}
+
+@media (max-width: $breakpoint-sml-cellphone) {
+    .card_project-description {
+        font-size: 5vw !important;
+    }
+}
+
+@media (max-width: $breakpoint-xsml-cellphone) {
+    .card_project-description {
+        font-size: 5.5vw !important;
+    }
 }
