@@ -28,7 +28,10 @@ function Projects() {
                     </a>
                 </div>
                 <div className="card">
-                    <a href="https://www.wateraudit.ca/" target="_blank">
+                    <a
+                        href="https://water-audit-tool.netlify.app/"
+                        target="_blank"
+                    >
                         <h3 className="card_project-title">
                             Multi-Step Audit Tool
                         </h3>
