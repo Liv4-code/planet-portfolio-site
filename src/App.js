@@ -27,14 +27,6 @@ function App() {
                     <Contact path="/contact" />
                 </Route>
             </div>
-            {/* <div className="navigation-container">
-                <div className="navigation">
-                    <Link to="/">Home</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
-                </div>
-            </div> */}
             <div className="navigation-container">
                 <nav className="navigation">
                     <Link to="/">
@@ -91,50 +83,6 @@ function App() {
                     </Link>
                 </nav>
             </div>
-            {/* <div className="navigation-container">
-                <nav className="navigation">
-                    <button className="navigation__button">
-                        <span>
-                            <img
-                                className="navigation__button-icon"
-                                src={homeIcon}
-                                alt="Home Button Icon"
-                            />
-                            <p className="navigation__button-text">Home</p>
-                        </span>
-                    </button>
-                    <button className="navigation__button">
-                        <span>
-                            <img
-                                className="navigation__button-icon"
-                                src={aboutIcon}
-                                alt="About Button Icon"
-                            />
-                            <p className="navigation__button-text">About</p>
-                        </span>
-                    </button>
-                    <button className="navigation__button">
-                        <span>
-                            <img
-                                className="navigation__button-icon"
-                                src={projectsIcon}
-                                alt="Projects Button Icon"
-                            />
-                            <p className="navigation__button-text">Projects</p>
-                        </span>
-                    </button>
-                    <button className="navigation__button">
-                        <span>
-                            <img
-                                className="navigation__button-icon"
-                                src={contactIcon}
-                                alt="Contact Button Icon"
-                            />
-                            <p className="navigation__button-text">Contact</p>
-                        </span>
-                    </button>
-                </nav>
-            </div> */}
         </div>
     );
 }

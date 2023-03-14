@@ -1,7 +1,7 @@
 $breakpoint-tablet: 768px;
 
 .home-container {
-    font-size: 1.4em;
+    font-size: 1.8em;
     background-image: url("./assets/dunes.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,16 +9,16 @@ $breakpoint-tablet: 768px;
 }
 
 .heading {
-    padding: 6% 0 0 7%;
+    padding: 5% 0 0 7%;
 }
 
 @media (max-width: $breakpoint-tablet) {
-    .container {
+    .home-container {
         font-size: 1.2em;
 
         .heading {
             text-align: center;
-            padding: 3%;
+            padding: 10%;
         }
     }
 }

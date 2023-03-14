@@ -3,7 +3,7 @@ $primary-color: #c1c1c1;
 $breakpoint-laptop: 1024px;
 $breakpoint-tablet: 769px;
 
-@import url("https://fonts.googleapis.com/css2?family=Genos:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Genos:wght@100;200;400&display=swap");
 
 * {
     margin: 0;
@@ -39,7 +39,6 @@ a {
         rgba(56, 56, 56, 1) 87%,
         rgb(42, 42, 42) 100%
     );
-
     border-radius: 10rem 10rem 0 0;
     box-shadow: -6px -10px 20px -6px rgba(46, 46, 46, 0.75);
 
@@ -58,7 +57,6 @@ a {
         display: inline-block;
         padding: 10px 40px 10px 40px;
         color: #363636;
-        font-weight: 500;
         font-size: 18px;
     }
 
