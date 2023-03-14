@@ -10,7 +10,7 @@ $breakpoint-xsml-cellphone: 400px;
     height: 100vh;
 }
 
-.glass-card {
+.about-glass-card {
     margin: auto;
     position: absolute;
     display: flex;
@@ -33,13 +33,13 @@ $breakpoint-xsml-cellphone: 400px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
 
-    .glass-card__heading {
+    .about-glass-card__heading {
         margin: 5%;
         font-size: 40px;
         text-align: center;
     }
 
-    .glass-card__text {
+    .about-glass-card__text {
         padding: 0 5% 3% 5%;
         font-size: 26px;
         text-align: center;
@@ -47,32 +47,32 @@ $breakpoint-xsml-cellphone: 400px;
 }
 
 @media (max-width: $breakpoint-tablet) {
-    .glass-card {
+    .about-glass-card {
         width: 85%;
     }
 
-    .glass-card__heading {
+    .about-glass-card__heading {
         font-size: 8vw !important;
     }
 
-    .glass-card__text {
+    .about-glass-card__text {
         padding: 5%;
         font-size: 3.6vw !important;
     }
 }
 
 @media (max-width: $breakpoint-cellphone) {
-    .glass-card {
+    .about-glass-card {
         height: 76vh;
         justify-content: space-evenly;
     }
 
-    .glass-card__heading {
+    .about-glass-card__heading {
         padding-top: 4%;
         height: 12%;
     }
 
-    .glass-card__text {
+    .about-glass-card__text {
         padding: 0 5% 0 5%;
         font-size: 4.5vw !important;
         height: 85%;
@@ -80,13 +80,13 @@ $breakpoint-xsml-cellphone: 400px;
 }
 
 @media (max-width: $breakpoint-sml-cellphone) {
-    .glass-card__text {
+    .about-glass-card__text {
         font-size: 5vw !important;
     }
 }
 
 @media (max-width: $breakpoint-xsml-cellphone) {
-    .glass-card__text {
+    .about-glass-card__text {
         font-size: 5.5vw !important;
     }
 }

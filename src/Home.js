@@ -10,9 +10,7 @@ function Home() {
                         typewriter
                             .changeDelay(60)
                             .typeString("<h2>Welcome, distant traveller</h2>")
-                            .pauseFor(1000)
                             .typeString("<h1>My name is Olivia</h1>")
-                            .pauseFor(1000)
                             .typeString("<h1>I'm a web developer</h1>")
                             .pauseFor(500)
                             .typeString("<h3>Come...</h3>")

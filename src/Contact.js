@@ -3,9 +3,9 @@ import "./Contact.scss";
 function Contact() {
     return (
         <div className="contact-container">
-            <div className="glass-card">
-                <h2 className="glass-card__heading">Contact Me</h2>
-                <p className="glass-card__text">
+            <div className="contact-glass-card">
+                <h2 className="contact-glass-card__heading">Contact Me</h2>
+                <p className="contact-glass-card__text">
                     To get in touch, please feel free to reach me over{" "}
                     <a href="mailto:scholtz.ice@gmail.com">email</a>,{" "}
                     <a
