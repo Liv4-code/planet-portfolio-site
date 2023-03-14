@@ -9,7 +9,8 @@ $breakpoint-tablet: 768px;
 }
 
 .heading {
-    padding: 5% 0 0 7%;
+    padding: 5% 0 0 15%;
+    color: #1a1a1a;
 }
 
 @media (max-width: $breakpoint-tablet) {
@@ -17,8 +18,8 @@ $breakpoint-tablet: 768px;
         font-size: 1.2em;
 
         .heading {
-            text-align: center;
-            padding: 10%;
+            text-align: end;
+            padding: 5%;
         }
     }
 }
