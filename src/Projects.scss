@@ -3,7 +3,7 @@ $breakpoint-cellphone: 600px;
 $breakpoint-sml-cellphone: 500px;
 $breakpoint-xsml-cellphone: 400px;
 
-.container {
+.projects-container {
     height: 100vh;
     position: relative;
     display: flex;
@@ -53,7 +53,7 @@ $breakpoint-xsml-cellphone: 400px;
     }
 }
 
-.container::before {
+.projects-container::before {
     content: "";
     display: block;
     position: absolute;

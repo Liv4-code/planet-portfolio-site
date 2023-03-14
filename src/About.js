@@ -2,7 +2,7 @@ import "./About.scss";
 
 function About() {
     return (
-        <div className="container">
+        <div className="about-container">
             <div className="glass-card">
                 <h2 className="glass-card__heading">A Bit About Me</h2>
                 <p className="glass-card__text">

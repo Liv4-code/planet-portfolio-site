@@ -2,7 +2,7 @@ import "./Contact.scss";
 
 function Contact() {
     return (
-        <div className="container">
+        <div className="contact-container">
             <div className="glass-card">
                 <h2 className="glass-card__heading">Contact Me</h2>
                 <p className="glass-card__text">

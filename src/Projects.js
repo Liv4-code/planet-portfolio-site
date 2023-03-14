@@ -2,7 +2,7 @@ import "./Projects.scss";
 
 function Projects() {
     return (
-        <div className="container">
+        <div className="projects-container">
             <div className="projects">
                 <div className="card">
                     <a href="https://iotdashboard.netlify.app/" target="_blank">

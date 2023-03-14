@@ -13,23 +13,27 @@ import contactIcon from "./assets/phone.svg";
 function App() {
     return (
         <div className="container">
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/contact">Contact</Link>
             <div>
                 <Route path="/">
-                    <Home />
+                    <Home path="/" />
                 </Route>
                 <Route path="/about">
-                    <About />
+                    <About path="/about" />
                 </Route>
                 <Route path="/projects">
-                    <Projects />
+                    <Projects path="/projects" />
                 </Route>
                 <Route path="/contact">
-                    <Contact />
+                    <Contact path="/contact" />
                 </Route>
+            </div>
+            <div className="navigation-container">
+                <div className="navigation">
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link>
+                </div>
             </div>
             {/* <div className="navigation-container">
                 <nav className="navigation">

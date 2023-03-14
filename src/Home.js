@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 function Home() {
     return (
-        <div className="container">
+        <div className="home-container">
             <div className="heading">
                 <Typewriter
                     onInit={(typewriter) => {
@@ -13,11 +13,10 @@ function Home() {
                             .pauseFor(1000)
                             .typeString("<h1>My name is Olivia</h1>")
                             .pauseFor(1000)
-                            .changeDelay(100)
                             .typeString("<h1>I'm a web developer</h1>")
                             .pauseFor(500)
                             .typeString("<h3>Come...</h3>")
-                            .pauseFor(1500)
+                            .pauseFor(1000)
                             .deleteChars(7)
                             .typeString("<h3>Explore my planet</h3>")
                             .start();
