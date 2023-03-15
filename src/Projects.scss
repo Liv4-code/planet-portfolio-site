@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+
 $breakpoint-laptop: 1025px;
 $breakpoint-tablet: 768px;
 $breakpoint-cellphone: 600px;
@@ -19,17 +21,16 @@ $breakpoint-xsml-cellphone: 400px;
     }
 
     .card {
-        margin: 0 5% 10% 5%;
+        margin: 0 2% 10% 2%;
         padding: 3%;
         width: 30vw;
         height: 30vh;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
-        border-radius: 30px;
-        border: 2px solid rgba(255, 255, 255, 0.5);
-        border-right: 2px solid rgba(255, 255, 255, 0.2);
-        border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-        backdrop-filter: blur(10px);
+        background-image: url(./assets/wood-texture.jpeg);
+        background-size: 100% 100%;
+        box-shadow: rgba(0, 0, 0, 0.8) 0px 2px 4px inset,
+            rgba(0, 0, 0, 0.5) 0px 7px 13px -3px,
+            rgba(0, 0, 0, 0.6) 0px -5px 0px inset;
+        border-radius: 5px;
     }
 
     a {
@@ -40,17 +41,20 @@ $breakpoint-xsml-cellphone: 400px;
     }
 
     .card_project-title {
+        font-family: "Finger Paint", cursive;
+        text-shadow: -1px -1px 1px #000;
         text-align: center;
         color: rgb(241, 241, 241);
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .card_project-description {
+        font-family: "Finger Paint", cursive;
         text-align: center;
         color: rgb(241, 241, 241);
-        font-size: 1.2vw;
+        font-size: 1.1vw;
         margin-top: 10px;
-        height: 83%;
+        height: 80%;
     }
 }
 
@@ -89,7 +93,7 @@ $breakpoint-xsml-cellphone: 400px;
     }
 
     .card_project-description {
-        font-size: 2vw !important;
+        font-size: 1.7vw !important;
         height: 77% !important;
     }
 }
@@ -108,7 +112,7 @@ $breakpoint-xsml-cellphone: 400px;
     }
 
     .card_project-description {
-        font-size: 2.6vw !important;
+        font-size: 2.1vw !important;
     }
 }
 
@@ -144,18 +148,18 @@ $breakpoint-xsml-cellphone: 400px;
     }
 
     .card_project-description {
-        font-size: 5vw !important;
+        font-size: 3.7vw !important;
     }
 }
 
 @media (max-width: $breakpoint-sml-cellphone) {
     .card_project-description {
-        font-size: 5.3vw !important;
+        font-size: 4.19vw !important;
     }
 }
 
 @media (max-width: $breakpoint-xsml-cellphone) {
     .card_project-description {
-        font-size: 6vw !important;
+        font-size: 5vw !important;
     }
 }

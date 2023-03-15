@@ -47,11 +47,10 @@ function Projects() {
                         <p className="card_project-description">
                             {" "}
                             This multi-step input form is used to gather
-                            detailed information about a building's water-use
-                            infrastructure. The data retrieved in this tool is
-                            used to calculate usage cost savings and thereafter,
-                            is compiled into a report that's sent to the user
-                            upon completion.
+                            information about a building's water-use
+                            infrastructure. The data retrieved is then used to
+                            calculate savings and is compiled into a report
+                            that's sent upon final form submission.
                         </p>
                     </a>
                 </div>
