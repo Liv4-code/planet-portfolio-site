@@ -8,13 +8,13 @@ function Home() {
                 <Typewriter
                     onInit={(typewriter) => {
                         typewriter
-                            .changeDelay(60)
+                            .pauseFor(1000)
+                            .changeDelay(50)
                             .typeString("<h2>Welcome, distant traveller</h2>")
                             .typeString("<h1>My name is Olivia</h1>")
                             .typeString("<h1>I'm a web developer</h1>")
-                            .pauseFor(500)
                             .typeString("<h3>Come...</h3>")
-                            .pauseFor(1000)
+                            .pauseFor(500)
                             .deleteChars(7)
                             .typeString("<h3>Explore my planet</h3>")
                             .start();

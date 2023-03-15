@@ -5,7 +5,8 @@ $breakpoint-tablet: 768px;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    animation: fade-in 5s;
+    animation: fade-in-home 4s ease-in-out;
+    animation-fill-mode: forwards;
 }
 
 .heading {
@@ -13,28 +14,14 @@ $breakpoint-tablet: 768px;
     color: #1a1a1a;
 }
 
-@keyframes fade-in {
-    0% {
+@keyframes fade-in-home {
+    from {
         opacity: 0%;
         background-image: url("./assets/dunes.jpeg");
     }
 
-    25% {
-        opacity: 25%;
-        background-image: url("./assets/dunes.jpeg");
-    }
-
-    50% {
-        opacity: 50%;
-        background-image: url("./assets/dunes.jpeg");
-    }
-
-    75% {
-        opacity: 75%;
-        background-image: url("./assets/dunes.jpeg");
-    }
-
-    100% {
+    to {
+        opacity: 100%;
         background-image: url("./assets/dunes.jpeg");
     }
 }

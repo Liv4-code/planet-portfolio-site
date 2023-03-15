@@ -4,11 +4,12 @@ $breakpoint-sml-cellphone: 500px;
 $breakpoint-xsml-cellphone: 400px;
 
 .contact-container {
-    background: url("./assets/underwater.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     color: rgb(241, 241, 241);
+    animation: fade-in-contact 6s ease-in-out 1;
+    animation-fill-mode: forwards;
 }
 
 .contact-glass-card {
@@ -50,6 +51,18 @@ $breakpoint-xsml-cellphone: 400px;
         a {
             color: rgb(227, 131, 53);
         }
+    }
+}
+
+@keyframes fade-in-contact {
+    from {
+        opacity: 0%;
+        background-image: url("./assets/underwater.webp");
+    }
+
+    to {
+        opacity: 100%;
+        background-image: url("./assets/underwater.webp");
     }
 }
 

@@ -58,11 +58,25 @@ $breakpoint-xsml-cellphone: 400px;
     content: "";
     display: block;
     position: absolute;
-    background: url("./assets/forest.webp");
+    // background: url("./assets/forest.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
+    animation: fade-in-projects 6s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in-projects {
+    from {
+        opacity: 0%;
+        background-image: url("./assets/forest.webp");
+    }
+
+    to {
+        opacity: 100%;
+        background-image: url("./assets/forest.webp");
+    }
 }
 
 @media (max-width: $breakpoint-laptop) {

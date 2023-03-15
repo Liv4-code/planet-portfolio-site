@@ -4,10 +4,11 @@ $breakpoint-sml-cellphone: 500px;
 $breakpoint-xsml-cellphone: 400px;
 
 .about-container {
-    background: url("./assets/bubblyland.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    animation: fade-in-about 6s ease-in-out 1;
+    animation-fill-mode: forwards;
 }
 
 .about-glass-card {
@@ -43,6 +44,18 @@ $breakpoint-xsml-cellphone: 400px;
         padding: 0 5% 3% 5%;
         font-size: 26px;
         text-align: center;
+    }
+}
+
+@keyframes fade-in-about {
+    from {
+        opacity: 0%;
+        background-image: url("./assets/bubblyland.webp");
+    }
+
+    to {
+        opacity: 100%;
+        background-image: url("./assets/bubblyland.webp");
     }
 }
 
