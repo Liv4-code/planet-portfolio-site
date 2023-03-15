@@ -2,15 +2,41 @@ $breakpoint-tablet: 768px;
 
 .home-container {
     font-size: 1.8em;
-    background-image: url("./assets/dunes.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    animation: fade-in 5s;
 }
 
 .heading {
     padding: 5% 0 0 15%;
     color: #1a1a1a;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0%;
+        background-image: url("./assets/dunes.jpeg");
+    }
+
+    25% {
+        opacity: 25%;
+        background-image: url("./assets/dunes.jpeg");
+    }
+
+    50% {
+        opacity: 50%;
+        background-image: url("./assets/dunes.jpeg");
+    }
+
+    75% {
+        opacity: 75%;
+        background-image: url("./assets/dunes.jpeg");
+    }
+
+    100% {
+        background-image: url("./assets/dunes.jpeg");
+    }
 }
 
 @media (max-width: $breakpoint-tablet) {
