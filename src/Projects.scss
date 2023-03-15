@@ -58,12 +58,11 @@ $breakpoint-xsml-cellphone: 400px;
     content: "";
     display: block;
     position: absolute;
-    // background: url("./assets/forest.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
-    animation: fade-in-projects 6s ease-in-out 1;
+    animation: fade-in-projects 4s ease-in-out 1;
     animation-fill-mode: forwards;
 }
 
