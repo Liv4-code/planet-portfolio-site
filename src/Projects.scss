@@ -31,6 +31,8 @@ $breakpoint-xsml-cellphone: 400px;
             rgba(0, 0, 0, 0.5) 0px 7px 13px -3px,
             rgba(0, 0, 0, 0.6) 0px -5px 0px inset;
         border-radius: 5px;
+        animation: fade-in-card 7s;
+        animation-fill-mode: forwards;
     }
 
     a {
@@ -152,6 +154,16 @@ $breakpoint-xsml-cellphone: 400px;
     }
 }
 
+@keyframes fade-in-card {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
 @media (max-width: $breakpoint-sml-cellphone) {
     .card_project-description {
         font-size: 4.19vw !important;
@@ -160,6 +172,6 @@ $breakpoint-xsml-cellphone: 400px;
 
 @media (max-width: $breakpoint-xsml-cellphone) {
     .card_project-description {
-        font-size: 5vw !important;
+        font-size: 4.3vw !important;
     }
 }
