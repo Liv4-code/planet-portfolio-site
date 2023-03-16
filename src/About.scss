@@ -24,7 +24,7 @@ $breakpoint-xsml-cellphone: 400px;
     bottom: 10%;
     padding: 5%;
     width: 600px;
-    height: 70vh;
+    height: 60vh;
     padding: 15px;
     color: rgb(241, 241, 241);
     background: rgba(255, 255, 255, 0.1);
@@ -99,6 +99,6 @@ $breakpoint-xsml-cellphone: 400px;
 
 @media (max-width: $breakpoint-xsml-cellphone) {
     .about-glass-card__text {
-        font-size: 5.5vw !important;
+        font-size: 5.3vw !important;
     }
 }
