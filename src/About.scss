@@ -21,7 +21,7 @@ $breakpoint-xsml-cellphone: 400px;
     left: 0;
     right: 0;
     top: 0;
-    bottom: 15%;
+    bottom: 10%;
     padding: 5%;
     width: 600px;
     height: 70vh;
@@ -77,13 +77,11 @@ $breakpoint-xsml-cellphone: 400px;
 
 @media (max-width: $breakpoint-cellphone) {
     .about-glass-card {
-        height: 76vh;
         justify-content: space-evenly;
     }
 
     .about-glass-card__heading {
         padding-top: 4%;
-        height: 12%;
     }
 
     .about-glass-card__text {
