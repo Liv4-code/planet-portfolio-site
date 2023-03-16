@@ -84,6 +84,16 @@ $breakpoint-xsml-cellphone: 400px;
     }
 }
 
+@keyframes fade-in-card {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
 @media (max-width: $breakpoint-laptop) {
     .card {
         margin: 0 1% 7% 1% !important;
@@ -151,16 +161,6 @@ $breakpoint-xsml-cellphone: 400px;
 
     .card_project-description {
         font-size: 3.7vw !important;
-    }
-}
-
-@keyframes fade-in-card {
-    from {
-        opacity: 0%;
-    }
-
-    to {
-        opacity: 100%;
     }
 }
 

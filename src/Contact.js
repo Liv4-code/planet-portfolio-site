@@ -15,7 +15,7 @@ function Contact() {
                     >
                         LinkedIn
                     </a>{" "}
-                    or simply give me a call on +27 82 225 5451.
+                    or give me a call on +27 82 225 5451.
                 </p>
             </div>
         </div>
