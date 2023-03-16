@@ -50,6 +50,14 @@ a {
             0px 8px rgba(78, 78, 78, 1), 0px 14px 6px -1px rgb(34, 34, 34);
     }
 
+    .navigation__button:hover {
+        transform: translate(0px, 1.8px);
+        box-shadow: 0px 3px rgba(128, 128, 128, 1),
+            0px 4px rgba(118, 118, 118, 1), 0px 5px rgba(108, 108, 108, 1),
+            0px 6px rgba(98, 98, 98, 1), 0px 7px rgba(88, 88, 88, 1),
+            0px 8px rgba(78, 78, 78, 1), 0px 10px 6px -1px rgb(34, 34, 34);
+    }
+
     .navigation__button span {
         background: linear-gradient(to bottom, #bcc6cc, #eee, #bcc6cc);
         box-shadow: 0px -1px #fff, 0px 1px 1px #ffffff;
@@ -60,9 +68,9 @@ a {
         font-size: 18px;
     }
 
-    .navigation__button:hover span {
-        transform: scale(1, 1.1) translate(0, 1px);
-    }
+    // .navigation__button span:hover {
+    //     transform: scale(1, 1) translate(0, 0px);
+    // }
 
     .navigation__button span:hover {
         cursor: pointer;
