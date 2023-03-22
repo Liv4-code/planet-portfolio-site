@@ -3,19 +3,62 @@ import NavigationContext from "../context/navigation";
 
 function Route({ path, children }) {
     const { currentPath } = useContext(NavigationContext);
-    // const navigationPanel = document.querySelector(".navigation");
+    const navigationPanel = document.querySelector(".navigation");
 
     if (path === currentPath) {
-        // console.log(navigationPanel.childNodes[3]);
-        // if (path === "/") {
-        //     console.log("yes");
-        // } else if (path === "/about") {
-        //     console.log("yes");
-        // } else if (path === "/projects") {
-        //     console.log("yes");
-        // } else if (path === "/contact") {
-        //     console.log("yes");
-        // }
+        if (path === "/" && navigationPanel) {
+            navigationPanel.childNodes[0].childNodes[1].classList.add(
+                "navigation_display__light--current"
+            );
+            navigationPanel.childNodes[1].childNodes[1].classList.remove(
+                "navigation_display__light--current"
+            );
+            navigationPanel.childNodes[2].childNodes[1].classList.remove(
+                "navigation_display__light--current"
+            );
+            navigationPanel.childNodes[3].childNodes[1].classList.remove(
+                "navigation_display__light--current"
+            );
+        } else if (path === "/about" && navigationPanel) {
+            navigationPanel.childNodes[0].childNodes[1].classList.remove(
+                "navigation_display__light--current"
+            );
+            navigationPanel.childNodes[1].childNodes[1].classList.add(
+                "navigation_display__light--current"
+            );
+            navigationPanel.childNodes[2].childNodes[1].classList.remove(
+                "navigation_display__light--current"
+            );
+            navigationPanel.childNodes[3].childNodes[1].classList.remove(
+                "navigation_display__light--current"
+            );
+        } else if (path === "/projects" && navigationPanel) {
+            navigationPanel.childNodes[0].childNodes[1].classList.remove(
+                "navigation_display__light--current"
+            );
+            navigationPanel.childNodes[1].childNodes[1].classList.remove(
+                "navigation_display__light--current"
+            );
+            navigationPanel.childNodes[2].childNodes[1].classList.add(
+                "navigation_display__light--current"
+            );
+            navigationPanel.childNodes[3].childNodes[1].classList.remove(
+                "navigation_display__light--current"
+            );
+        } else if (path === "/contact" && navigationPanel) {
+            navigationPanel.childNodes[0].childNodes[1].classList.remove(
+                "navigation_display__light--current"
+            );
+            navigationPanel.childNodes[1].childNodes[1].classList.remove(
+                "navigation_display__light--current"
+            );
+            navigationPanel.childNodes[2].childNodes[1].classList.remove(
+                "navigation_display__light--current"
+            );
+            navigationPanel.childNodes[3].childNodes[1].classList.add(
+                "navigation_display__light--current"
+            );
+        }
         // console.log(path);
         return children;
     }

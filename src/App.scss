@@ -14,7 +14,7 @@ $breakpoint-tablet: 769px;
 a {
     color: #363636;
     text-decoration: none;
-    margin: 1%;
+    // margin: 1%;
 }
 
 .navigation-container {
@@ -42,7 +42,32 @@ a {
     );
     border-radius: 10rem 10rem 0 0;
     box-shadow: -3px -10px 10px -12px rgba(46, 46, 46, 0.75),
-        rgba(0, 0, 0, 0.8) 0px 2px 4px inset;
+        rgba(0, 0, 0, 0.8) 0px 2px 5px inset;
+
+    .navigation_display {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 1%;
+
+        .navigation_display__light {
+            visibility: hidden;
+            width: 12px;
+            height: 12px;
+            background-color: rgb(224, 201, 201);
+            border-radius: 50%;
+            box-shadow: rgba(57, 57, 57, 0.9) -1px 0px 2px 0px,
+                rgba(215, 215, 215, 0.9) 2px -1px 2px 5px inset;
+            margin-bottom: 3px;
+        }
+
+        .navigation_display__light--current {
+            visibility: visible;
+            box-shadow: rgba(57, 57, 57, 0.9) -1px 0px 2px 0px,
+                rgba(132, 9, 9, 0.9) 2px -1px 2px 5px inset;
+        }
+    }
 
     .navigation__button {
         border-radius: 10px;

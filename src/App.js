@@ -29,58 +29,76 @@ function App() {
             </div>
             <div className="navigation-container">
                 <nav className="navigation">
-                    <Link to="/">
-                        <button className="navigation__button">
-                            <span>
-                                <img
-                                    className="navigation__button-icon"
-                                    src={homeIcon}
-                                    alt="Home Button Icon"
-                                />
-                                <p className="navigation__button-text">Home</p>
-                            </span>
-                        </button>
-                    </Link>
-                    <Link to="/about">
-                        <button className="navigation__button">
-                            <span>
-                                <img
-                                    className="navigation__button-icon"
-                                    src={aboutIcon}
-                                    alt="About Button Icon"
-                                />
-                                <p className="navigation__button-text">About</p>
-                            </span>
-                        </button>
-                    </Link>
-                    <Link to="/projects">
-                        <button className="navigation__button">
-                            <span>
-                                <img
-                                    className="navigation__button-icon"
-                                    src={projectsIcon}
-                                    alt="Projects Button Icon"
-                                />
-                                <p className="navigation__button-text">
-                                    Projects
-                                </p>
-                            </span>
-                        </button>
-                    </Link>
-                    <Link to="/contact">
-                        <button className="navigation__button">
-                            <span>
-                                <img
-                                    className="navigation__button-icon"
-                                    src={contactIcon}
-                                    alt="Contact Button Icon"
-                                />
-                                <p className="navigation__button-text">
-                                    Contact
-                                </p>
-                            </span>
-                        </button>
-                    </Link>
+                    <div className="navigation_display">
+                        <Link to="/">
+                            <button className="navigation__button">
+                                <span>
+                                    <img
+                                        className="navigation__button-icon"
+                                        src={homeIcon}
+                                        alt="Home Button Icon"
+                                    />
+                                    <p className="navigation__button-text">
+                                        Home
+                                    </p>
+                                </span>
+                            </button>
+                        </Link>
+                        <div className="navigation_display__light"></div>
+                    </div>
+                    <div className="navigation_display">
+                        <Link to="/about">
+                            <button className="navigation__button">
+                                <span>
+                                    <img
+                                        className="navigation__button-icon"
+                                        src={aboutIcon}
+                                        alt="About Button Icon"
+                                    />
+                                    <p className="navigation__button-text">
+                                        About
+                                    </p>
+                                </span>
+                            </button>
+                        </Link>
+                        <div className="navigation_display__light"></div>
+                    </div>
+
+                    <div className="navigation_display">
+                        <Link to="/projects">
+                            <button className="navigation__button">
+                                <span>
+                                    <img
+                                        className="navigation__button-icon"
+                                        src={projectsIcon}
+                                        alt="Projects Button Icon"
+                                    />
+                                    <p className="navigation__button-text">
+                                        Projects
+                                    </p>
+                                </span>
+                            </button>
+                        </Link>
+                        <div className="navigation_display__light"></div>
+                    </div>
+
+                    <div className="navigation_display">
+                        <Link to="/contact">
+                            <button className="navigation__button">
+                                <span>
+                                    <img
+                                        className="navigation__button-icon"
+                                        src={contactIcon}
+                                        alt="Contact Button Icon"
+                                    />
+                                    <p className="navigation__button-text">
+                                        Contact
+                                    </p>
+                                </span>
+                            </button>
+                        </Link>
+                        <div className="navigation_display__light"></div>
+                    </div>
                 </nav>
             </div>
         </div>
