@@ -33,14 +33,16 @@ a {
     background: rgb(149, 149, 149);
     background: linear-gradient(
         to bottom,
-        rgba(149, 149, 149, 1) 0%,
-        rgb(60, 60, 60) 46%,
-        rgba(78, 78, 78, 1) 76%,
-        rgba(56, 56, 56, 1) 87%,
+        rgb(224, 224, 224) 2%,
+        rgb(200, 200, 200) 1%,
+        rgb(150, 150, 150) 13%,
+        rgb(50, 50, 50) 76%,
+        rgb(56, 56, 56) 87%,
         rgb(42, 42, 42) 100%
     );
     border-radius: 10rem 10rem 0 0;
-    box-shadow: -6px -10px 20px -6px rgba(46, 46, 46, 0.75);
+    box-shadow: -3px -10px 10px -12px rgba(46, 46, 46, 0.75),
+        rgba(0, 0, 0, 0.8) 0px 2px 4px inset;
 
     .navigation__button {
         border-radius: 10px;
@@ -67,10 +69,6 @@ a {
         color: #363636;
         font-size: 18px;
     }
-
-    // .navigation__button span:hover {
-    //     transform: scale(1, 1) translate(0, 0px);
-    // }
 
     .navigation__button span:hover {
         cursor: pointer;
