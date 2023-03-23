@@ -1,0 +1,33 @@
+.home-container {
+  font-size: 1.8em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  animation: fade-in-home 4s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.heading {
+  padding: 5% 0 0 15%;
+  color: #1a1a1a;
+}
+
+@keyframes fade-in-home {
+  from {
+    opacity: 0%;
+    background-image: url("./assets/dunes.jpeg");
+  }
+  to {
+    opacity: 100%;
+    background-image: url("./assets/dunes.jpeg");
+  }
+}
+@media (max-width: 1150px) {
+  .home-container {
+    font-size: 1.5em;
+  }
+  .home-container .heading {
+    text-align: end;
+    padding: 5%;
+  }
+}/*# sourceMappingURL=Home.css.map */

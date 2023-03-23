@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+.projects-container {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects-container .projects {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.projects-container .card {
+  margin: 0 2% 10% 2%;
+  padding: 3%;
+  width: 30vw;
+  height: 30vh;
+  background-image: url(./assets/wood-texture.jpeg);
+  background-size: 100% 100%;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 2px 4px inset, rgba(0, 0, 0, 0.5) 0px 7px 13px -3px, rgba(0, 0, 0, 0.6) 0px -5px 0px inset;
+  border-radius: 5px;
+  animation: fade-in-card 7s;
+  animation-fill-mode: forwards;
+}
+.projects-container a {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.projects-container .card_project-title {
+  font-family: "Finger Paint", cursive;
+  text-shadow: -1px -1px 1px #000;
+  text-align: center;
+  color: rgb(241, 241, 241);
+  font-size: 22px;
+}
+.projects-container .card_project-description {
+  font-family: "Finger Paint", cursive;
+  text-align: center;
+  color: rgb(241, 241, 241);
+  font-size: 1.1vw;
+  margin-top: 10px;
+  height: 80%;
+}
+
+.projects-container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  animation: fade-in-projects 4s ease-in-out 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in-projects {
+  from {
+    opacity: 0%;
+    background-image: url("./assets/forest.webp");
+  }
+  to {
+    opacity: 100%;
+    background-image: url("./assets/forest.webp");
+  }
+}
+@keyframes fade-in-card {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+@media (max-width: 1025px) {
+  .card {
+    margin: 0 1% 7% 1% !important;
+    height: 45vh !important;
+  }
+  .card_project-title {
+    height: 25%;
+  }
+  .card_project-description {
+    font-size: 1.7vw !important;
+    height: 77% !important;
+  }
+}
+@media (max-width: 768px) {
+  .projects {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15%;
+  }
+  .card {
+    width: 68vw !important;
+    height: 20vh !important;
+    margin: 0 0 15px 0 !important;
+  }
+  .card_project-description {
+    font-size: 2.1vw !important;
+  }
+}
+@media (max-width: 600px) {
+  .projects-container {
+    height: 200vh !important;
+  }
+  .projects-container::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url("./assets/forest.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200vh;
+    width: 100vw;
+  }
+  .projects {
+    height: 100% !important;
+    justify-content: center !important;
+  }
+  .card {
+    height: 24% !important;
+    padding: 6% !important;
+  }
+  .card_project-title {
+    height: 30%;
+    font-size: 7vw !important;
+  }
+  .card_project-description {
+    font-size: 3.7vw !important;
+  }
+}
+@media (max-width: 500px) {
+  .card_project-description {
+    font-size: 4.19vw !important;
+  }
+}
+@media (max-width: 400px) {
+  .card_project-description {
+    font-size: 4.1vw !important;
+  }
+}/*# sourceMappingURL=Projects.css.map */

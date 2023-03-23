@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Genos:wght@100;200;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Genos", sans-serif;
+}
+
+a {
+  color: #363636;
+  text-decoration: none;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 90vw;
+  height: 15%;
+  background: rgb(149, 149, 149);
+  background: linear-gradient(to bottom, rgb(224, 224, 224) 2%, rgb(200, 200, 200) 1%, rgb(150, 150, 150) 13%, rgb(50, 50, 50) 76%, rgb(56, 56, 56) 87%, rgb(42, 42, 42) 100%);
+  border-radius: 10rem 10rem 0 0;
+  box-shadow: -3px -10px 10px -12px rgba(46, 46, 46, 0.75), rgba(0, 0, 0, 0.8) 0px 2px 5px inset;
+}
+.navigation .navigation_display {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+.navigation .navigation_display .navigation_display__light {
+  visibility: hidden;
+  width: 12px;
+  height: 12px;
+  background-color: rgb(224, 201, 201);
+  border-radius: 50%;
+  box-shadow: rgba(57, 57, 57, 0.9) -1px 0px 2px 0px, rgba(215, 215, 215, 0.9) 2px -1px 2px 5px inset;
+  margin-bottom: 3px;
+}
+.navigation .navigation_display .navigation_display__light--current {
+  visibility: visible;
+  box-shadow: rgba(57, 57, 57, 0.9) -1px 0px 2px 0px, rgba(132, 9, 9, 0.9) 2px -1px 2px 5px inset;
+}
+.navigation .navigation__button {
+  border-radius: 10px;
+  box-shadow: 0px 3px rgb(128, 128, 128), 0px 4px rgb(118, 118, 118), 0px 5px rgb(108, 108, 108), 0px 6px rgb(98, 98, 98), 0px 7px rgb(88, 88, 88), 0px 8px rgb(78, 78, 78), 0px 14px 6px -1px rgb(34, 34, 34);
+}
+.navigation .navigation__button:hover {
+  transform: translate(0px, 1.8px);
+  box-shadow: 0px 3px rgb(128, 128, 128), 0px 4px rgb(118, 118, 118), 0px 5px rgb(108, 108, 108), 0px 6px rgb(98, 98, 98), 0px 7px rgb(88, 88, 88), 0px 8px rgb(78, 78, 78), 0px 10px 6px -1px rgb(34, 34, 34);
+}
+.navigation .navigation__button span {
+  background: linear-gradient(to bottom, #bcc6cc, #eee, #bcc6cc);
+  box-shadow: 0px -1px #fff, 0px 1px 1px #ffffff;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px 40px 10px 40px;
+  color: #363636;
+  font-size: 18px;
+}
+.navigation .navigation__button span:hover {
+  cursor: pointer;
+}
+.navigation .navigation__button-icon {
+  display: none;
+}
+
+.navigation__button:hover {
+  box-shadow: 0px 3px rgb(128, 128, 128), 0px 4px rgb(118, 118, 118), 0px 5px rgb(108, 108, 108), 0px 6px rgb(98, 98, 98), 0px 7px rgb(88, 88, 88), 0px 8px rgb(78, 78, 78), 0px 10px 2px 0px rgba(128, 128, 128, 0.6);
+  background: none;
+  transform: scale(1, 0.87);
+}
+
+@media (max-width: 769px) {
+  .navigation {
+    width: 100vw;
+  }
+  .navigation .navigation__button {
+    height: 54px;
+    width: 55px;
+  }
+  .navigation .navigation__button span {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .navigation .navigation__button-text {
+    display: none;
+  }
+  .navigation .navigation__button-icon {
+    display: block;
+  }
+}/*# sourceMappingURL=App.css.map */
