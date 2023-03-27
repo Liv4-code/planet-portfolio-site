@@ -21,7 +21,7 @@ function Projects() {
                         </p>
                     </a>
                 </div>
-                <div className="card">
+                {/* <div className="card">
                     <a
                         href="https://iotdashboard.netlify.app/"
                         target="_blank"
@@ -34,7 +34,7 @@ function Projects() {
                             Another Project
                         </p>
                     </a>
-                </div>
+                </div> */}
                 <div className="card">
                     <a
                         href="https://water-audit-tool.netlify.app/"
