@@ -28,10 +28,10 @@ function Projects() {
                         rel="noreferrer"
                     >
                         <h3 className="card_project-title">
-                            Interior Design Website
+                            Lotus Interiors Website
                         </h3>
                         <p className="card_project-description">
-                            Another Project
+                            Using a mobile-first approach, this websitee is fully responsive and was built with SCSS using the BEM naming convention.
                         </p>
                     </a>
                 </div> */}
