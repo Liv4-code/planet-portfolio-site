@@ -75,11 +75,11 @@
 }
 @media (max-width: 500px) {
   .about-glass-card__text {
-    font-size: 5vw !important;
+    font-size: 4.9vw !important;
   }
 }
 @media (max-width: 400px) {
   .about-glass-card__text {
-    font-size: 5.2vw !important;
+    font-size: 5.1vw !important;
   }
 }/*# sourceMappingURL=About.css.map */

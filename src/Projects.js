@@ -21,9 +21,9 @@ function Projects() {
                         </p>
                     </a>
                 </div>
-                {/* <div className="card">
+                <div className="card">
                     <a
-                        href="https://iotdashboard.netlify.app/"
+                        href="https://lotus-interiors.netlify.app"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -31,10 +31,12 @@ function Projects() {
                             Lotus Interiors Website
                         </h3>
                         <p className="card_project-description">
-                            Using a mobile-first approach, this websitee is fully responsive and was built with SCSS using the BEM naming convention.
+                            Using a mobile-first approach, this websitee is
+                            fully responsive and was built with SCSS using the
+                            BEM naming convention.
                         </p>
                     </a>
-                </div> */}
+                </div>
                 <div className="card">
                     <a
                         href="https://water-audit-tool.netlify.app/"
