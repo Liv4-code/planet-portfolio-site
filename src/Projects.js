@@ -1,16 +1,16 @@
 import "./Projects.scss";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import backgroundImg from "./assets/forest.webp";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Projects() {
     return (
         <div className="projects-container">
             <LazyLoadImage
                 src={backgroundImg}
-                width={700}
+                width={1500}
                 height={800}
                 alt="Lush Jungle Background"
-                effect="blur"
+                effect="opacity"
                 placeholderSrc={backgroundImg}
             />
             <div className="projects">
