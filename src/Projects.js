@@ -1,5 +1,4 @@
 import "./Projects.scss";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import backgroundImg from "./assets/forest.webp";
 
 function Projects() {
