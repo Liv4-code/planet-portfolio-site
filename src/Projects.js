@@ -31,9 +31,9 @@ function Projects() {
                             Lotus Interiors Website
                         </h3>
                         <p className="card_project-description">
-                            Using a mobile-first approach, this websitee is
-                            fully responsive and was built with SCSS using the
-                            BEM naming convention.
+                            Using a mobile-first approach, this website is fully
+                            responsive and was built with SCSS using the BEM
+                            naming convention.
                         </p>
                     </a>
                 </div>
