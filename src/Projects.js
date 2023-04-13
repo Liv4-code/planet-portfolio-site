@@ -5,12 +5,20 @@ import backgroundImg from "./assets/forest.webp";
 function Projects() {
     return (
         <div className="projects-container">
-            <LazyLoadImage
+            {/* <LazyLoadImage
                 src={backgroundImg}
                 width={700}
                 height={800}
                 alt="Lush Jungle Background"
+            /> */}
+            <img
+                src={backgroundImg}
+                width={700}
+                height={800}
+                alt="Lush Jungle Background"
+                loading="lazy"
             />
+            {/* <iframe src=""></iframe> */}
             <div className="projects">
                 <div className="card">
                     <a
