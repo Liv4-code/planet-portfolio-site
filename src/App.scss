@@ -103,15 +103,6 @@ a {
     }
 }
 
-.navigation__button:hover {
-    box-shadow: 0px 3px rgba(128, 128, 128, 1), 0px 4px rgba(118, 118, 118, 1),
-        0px 5px rgba(108, 108, 108, 1), 0px 6px rgba(98, 98, 98, 1),
-        0px 7px rgba(88, 88, 88, 1), 0px 8px rgba(78, 78, 78, 1),
-        0px 10px 2px 0px rgba(128, 128, 128, 0.6);
-    background: none;
-    transform: scale(1, 0.87);
-}
-
 @media (max-width: $breakpoint-tablet) {
     .navigation {
         width: 100vw;
