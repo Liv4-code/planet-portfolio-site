@@ -44,7 +44,7 @@ function App() {
                                 </span>
                             </button>
                         </Link>
-                        <div className="navigation_display__light"></div>
+                        <div className="navigation_display__light navigation_display__light--current"></div>
                     </div>
                     <div className="navigation_display">
                         <Link to="/about">

@@ -13,6 +13,15 @@ $breakpoint-xsml-cellphone: 400px;
     justify-content: center;
     align-items: center;
 
+    .projects-container__background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        // z-index: 0;
+        height: 100vh;
+        width: 100vw;
+    }
+
     .projects {
         position: absolute;
         display: flex;
@@ -60,29 +69,29 @@ $breakpoint-xsml-cellphone: 400px;
     }
 }
 
-.projects-container::before {
-    content: "";
-    display: block;
-    position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-    animation: fade-in-projects 4s ease-in-out 1;
-    animation-fill-mode: forwards;
-}
+// .projects-container::before {
+//     content: "";
+//     display: block;
+//     position: absolute;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     height: 100vh;
+//     width: 100vw;
+//     animation: fade-in-projects 4s ease-in-out 1;
+//     animation-fill-mode: forwards;
+// }
 
-@keyframes fade-in-projects {
-    from {
-        opacity: 0%;
-        background-image: url("./assets/forest.webp");
-    }
+// @keyframes fade-in-projects {
+//     from {
+//         opacity: 0%;
+//         background-image: url("./assets/forest.webp");
+//     }
 
-    to {
-        opacity: 100%;
-        background-image: url("./assets/forest.webp");
-    }
-}
+//     to {
+//         opacity: 100%;
+//         background-image: url("./assets/forest.webp");
+//     }
+// }
 
 @keyframes fade-in-card {
     from {
@@ -134,12 +143,6 @@ $breakpoint-xsml-cellphone: 400px;
     }
 
     .projects-container::before {
-        content: "";
-        display: block;
-        position: absolute;
-        background: url("./assets/forest.webp");
-        background-size: cover;
-        background-repeat: no-repeat;
         height: 200vh;
         width: 100vw;
     }
