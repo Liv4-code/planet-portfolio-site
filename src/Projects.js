@@ -1,23 +1,18 @@
 import "./Projects.scss";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import backgroundImg from "./assets/forest.webp";
 
 function Projects() {
     return (
         <div className="projects-container">
-            {/* <LazyLoadImage
+            <LazyLoadImage
                 src={backgroundImg}
                 width={700}
                 height={800}
                 alt="Lush Jungle Background"
-            /> */}
-            <img
-                src={backgroundImg}
-                width={700}
-                height={800}
-                alt="Lush Jungle Background"
-                loading="lazy"
+                effect="blur"
+                placeholderSrc={backgroundImg}
             />
-            {/* <iframe src=""></iframe> */}
             <div className="projects">
                 <div className="card">
                     <a
