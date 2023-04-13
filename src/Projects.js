@@ -6,8 +6,9 @@ function Projects() {
     return (
         <div className="projects-container">
             <LazyLoadImage
-                className="projects-container__background"
                 src={backgroundImg}
+                width={700}
+                height={800}
                 alt="Lush Jungle Background"
             />
             <div className="projects">
