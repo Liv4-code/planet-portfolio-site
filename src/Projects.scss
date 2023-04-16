@@ -60,29 +60,29 @@ $breakpoint-xsml-cellphone: 400px;
     }
 }
 
-.projects-container::before {
-    content: "";
-    display: block;
-    position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-    animation: fade-in-projects 4s ease-in-out 1;
-    animation-fill-mode: forwards;
-}
+// .projects-container::before {
+//     content: "";
+//     display: block;
+//     position: absolute;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     height: 100vh;
+//     width: 100vw;
+//     animation: fade-in-projects 4s ease-in-out 1;
+//     animation-fill-mode: forwards;
+// }
 
-@keyframes fade-in-projects {
-    from {
-        opacity: 0%;
-        background-image: url("./assets/forest.webp");
-    }
+// @keyframes fade-in-projects {
+//     from {
+//         opacity: 0%;
+//         background-image: url("./assets/forest.webp");
+//     }
 
-    to {
-        opacity: 100%;
-        background-image: url("./assets/forest.webp");
-    }
-}
+//     to {
+//         opacity: 100%;
+//         background-image: url("./assets/forest.webp");
+//     }
+// }
 
 @keyframes fade-in-card {
     from {
