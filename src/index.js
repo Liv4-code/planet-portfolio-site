@@ -7,6 +7,11 @@ const el = document.querySelector("#root");
 
 const root = ReactDOM.createRoot(el);
 
+window.addEventListener("load", () => {
+    // console.log();
+    console.log("loaded");
+});
+
 root.render(
     <NavigationProvider>
         <App />
