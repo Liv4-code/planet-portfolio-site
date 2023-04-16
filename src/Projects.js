@@ -5,7 +5,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 function Projects() {
     return (
         <div className="projects-container">
-            <LazyLoadImage
+            {/* <LazyLoadImage
                 key={0}
                 src={backgroundImg}
                 width={1500}
@@ -15,7 +15,7 @@ function Projects() {
                 placeholderSrc={backgroundImg}
                 threshold={10}
                 visibleByDefault={true}
-            />
+            /> */}
             <div className="projects">
                 <div className="card">
                     <a
