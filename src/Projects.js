@@ -13,6 +13,7 @@ function Projects() {
                 alt="Lush Jungle Background"
                 effect="blur"
                 placeholderSrc={backgroundImg}
+                threshold={10}
                 visibleByDefault={true}
             />
             <div className="projects">
