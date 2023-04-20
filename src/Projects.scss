@@ -31,7 +31,7 @@ $breakpoint-xsml-cellphone: 400px;
             rgba(0, 0, 0, 0.5) 0px 7px 13px -3px,
             rgba(0, 0, 0, 0.6) 0px -5px 0px inset;
         border-radius: 5px;
-        animation: fade-in-card 7s;
+        animation: fade-in-card 3s;
         animation-fill-mode: forwards;
     }
 
@@ -68,7 +68,7 @@ $breakpoint-xsml-cellphone: 400px;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
-    animation: fade-in-projects 4s ease-in-out 1;
+    animation: fade-in-projects 2s ease-in-out 1;
     animation-fill-mode: forwards;
 }
 
