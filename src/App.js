@@ -32,16 +32,12 @@ function App() {
                     <div className="navigation_display">
                         <Link to="/">
                             <button className="navigation__button">
-                                <span>
-                                    <img
-                                        className="navigation__button-icon"
-                                        src={homeIcon}
-                                        alt="Home Button Icon"
-                                    />
-                                    <p className="navigation__button-text">
-                                        Home
-                                    </p>
-                                </span>
+                                <img
+                                    className="navigation__button-icon"
+                                    src={homeIcon}
+                                    alt="Home Button Icon"
+                                />
+                                <p className="navigation__button-text">Home</p>
                             </button>
                         </Link>
                         <div className="navigation_display__light navigation_display__light--current"></div>
@@ -49,16 +45,12 @@ function App() {
                     <div className="navigation_display">
                         <Link to="/about">
                             <button className="navigation__button">
-                                <span>
-                                    <img
-                                        className="navigation__button-icon"
-                                        src={aboutIcon}
-                                        alt="About Button Icon"
-                                    />
-                                    <p className="navigation__button-text">
-                                        About
-                                    </p>
-                                </span>
+                                <img
+                                    className="navigation__button-icon"
+                                    src={aboutIcon}
+                                    alt="About Button Icon"
+                                />
+                                <p className="navigation__button-text">About</p>
                             </button>
                         </Link>
                         <div className="navigation_display__light"></div>
@@ -67,16 +59,14 @@ function App() {
                     <div className="navigation_display">
                         <Link to="/projects">
                             <button className="navigation__button">
-                                <span>
-                                    <img
-                                        className="navigation__button-icon"
-                                        src={projectsIcon}
-                                        alt="Projects Button Icon"
-                                    />
-                                    <p className="navigation__button-text">
-                                        Projects
-                                    </p>
-                                </span>
+                                <img
+                                    className="navigation__button-icon"
+                                    src={projectsIcon}
+                                    alt="Projects Button Icon"
+                                />
+                                <p className="navigation__button-text">
+                                    Projects
+                                </p>
                             </button>
                         </Link>
                         <div className="navigation_display__light"></div>
@@ -85,16 +75,14 @@ function App() {
                     <div className="navigation_display">
                         <Link to="/contact">
                             <button className="navigation__button">
-                                <span>
-                                    <img
-                                        className="navigation__button-icon"
-                                        src={contactIcon}
-                                        alt="Contact Button Icon"
-                                    />
-                                    <p className="navigation__button-text">
-                                        Contact
-                                    </p>
-                                </span>
+                                <img
+                                    className="navigation__button-icon"
+                                    src={contactIcon}
+                                    alt="Contact Button Icon"
+                                />
+                                <p className="navigation__button-text">
+                                    Contact
+                                </p>
                             </button>
                         </Link>
                         <div className="navigation_display__light"></div>
