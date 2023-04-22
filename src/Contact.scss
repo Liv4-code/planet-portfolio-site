@@ -26,10 +26,14 @@ $breakpoint-xsml-cellphone: 400px;
     width: 600px;
     height: 70vh;
     padding: 35px;
+    color: rgb(241, 241, 241);
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
-    animation: bubble-move 10s infinite ease-in-out;
-    animation-direction: alternate;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
 
     .contact-glass-card__heading {
         margin: 5%;
