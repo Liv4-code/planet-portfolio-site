@@ -11,12 +11,15 @@ function Home() {
                             .pauseFor(1000)
                             .changeDelay(50)
                             .typeString("<h3>Welcome, distant traveller</h3>")
-                            .typeString("<h2>My name is Olivia</h2>")
-                            .typeString("<h1>I'm a web developer</h1>")
-                            .typeString("<h3>Come...</h3>")
                             .pauseFor(500)
+                            .typeString("<h2>My name is Olivia</h2>")
+                            .pauseFor(500)
+                            .typeString("<h1>I'm a web developer</h1>")
+                            .pauseFor(300)
+                            .typeString("<h3>Come...</h3>")
+                            .pauseFor(600)
                             .deleteChars(7)
-                            .typeString("<h3>Explore my planet</h3>")
+                            .typeString("<h3>Explore my world</h3>")
                             .start();
                     }}
                 />

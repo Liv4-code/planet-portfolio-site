@@ -2,7 +2,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  animation: fade-in-about 4s ease-in-out 1;
+  animation: fade-in-about 2s ease-in-out 1;
   animation-fill-mode: forwards;
 }
 
@@ -20,7 +20,6 @@
   padding: 5%;
   width: 600px;
   height: 60vh;
-  padding: 15px;
   color: rgb(241, 241, 241);
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);

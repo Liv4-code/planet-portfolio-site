@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   height: 100vh;
   color: rgb(241, 241, 241);
-  animation: fade-in-contact 4s ease-in-out 1;
+  animation: fade-in-contact 2s ease-in-out 1;
   animation-fill-mode: forwards;
 }
 
@@ -18,10 +18,10 @@
   right: 0;
   top: 0;
   bottom: 15%;
-  padding: 5%;
   width: 600px;
   height: 70vh;
-  padding: 15px;
+  padding: 35px;
+  color: rgb(241, 241, 241);
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -47,6 +47,17 @@
   color: rgb(227, 131, 53);
 }
 
+@keyframes bubble-move {
+  0% {
+    border-radius: 62% 38% 60% 40%/39% 60% 40% 61%;
+  }
+  50% {
+    border-radius: 62% 38% 60% 40%/52% 50% 50% 48%;
+  }
+  100% {
+    border-radius: 62% 38% 60% 40%/43% 60% 40% 57%;
+  }
+}
 @keyframes fade-in-contact {
   from {
     opacity: 0%;
