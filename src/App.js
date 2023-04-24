@@ -29,6 +29,12 @@ function App() {
             </div>
             <div className="navigation-container">
                 <nav className="navigation">
+                    <div className="board">
+                        <div className="wrap">
+                            <input type="checkbox"></input>
+                            <div className="button"></div>
+                        </div>
+                    </div>
                     <div className="navigation_display">
                         <Link to="/">
                             <button className="navigation__button">
