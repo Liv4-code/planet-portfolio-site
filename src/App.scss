@@ -118,6 +118,8 @@ a {
         justify-content: center;
         align-items: center;
         margin: 25px 7px 0 7px;
+        position: relative;
+        right: 4.3%;
     }
 
     .navigation_display__light {
@@ -139,6 +141,13 @@ a {
 }
 
 .navigation__button {
+    background: rgb(176, 176, 176);
+    background: linear-gradient(
+        180deg,
+        rgba(176, 176, 176, 1) 0%,
+        rgba(226, 226, 226, 1) 50%,
+        rgba(176, 176, 176, 1) 79%
+    );
     display: flex;
     justify-content: center;
     align-items: center;
