@@ -29,12 +29,19 @@ a {
     bottom: -125px;
     width: 90vw;
     height: 250px;
-    background: rgb(149, 149, 149);
+    // background: linear-gradient(
+    //     rgb(224, 224, 224) 2%,
+    //     rgb(200, 200, 200) 1%,
+    //     rgb(150, 150, 150) 13%,
+    //     rgb(50, 50, 50) 76%,
+    //     rgb(56, 56, 56) 87%,
+    //     rgb(42, 42, 42) 100%
+    // );
     background: linear-gradient(
-        rgb(224, 224, 224) 2%,
-        rgb(200, 200, 200) 1%,
-        rgb(150, 150, 150) 13%,
-        rgb(50, 50, 50) 76%,
+        rgb(149 149 149) 4%,
+        rgb(139, 139, 139) 3%,
+        rgb(102, 101, 101) 13%,
+        rgb(18, 18, 18) 76%,
         rgb(56, 56, 56) 87%,
         rgb(42, 42, 42) 100%
     );
@@ -68,6 +75,12 @@ a {
                     &:after {
                         transform: translateX(100%) translateY(-60%)
                             rotateX(360deg) rotate(30deg);
+                        background: linear-gradient(
+                            90deg,
+                            rgb(117, 116, 83) 0%,
+                            rgba(226, 226, 226, 1) 50%,
+                            rgb(117, 116, 83) 79%
+                        );
                     }
                 }
             }
@@ -87,7 +100,7 @@ a {
                 width: 25px;
                 height: 27.5px;
                 background: #363636;
-                box-shadow: 0 1px 0 3px #363636, inset 0 0 0 7px #fff;
+                box-shadow: 0 1px 0 3px #363636, inset 0 0 0 7px #8f815c;
                 border-radius: 100%;
                 transform: translateZ(-10px) rotateX(50deg) translateX(-0.5px)
                     rotate(0deg);
@@ -98,7 +111,13 @@ a {
                 position: absolute;
                 width: 5px;
                 height: 20px;
-                background: #fff;
+                background: rgb(111, 110, 110);
+                background: linear-gradient(
+                    271deg,
+                    rgba(117, 116, 83) 0%,
+                    rgba(226, 226, 226, 1) 45%,
+                    rgba(117, 116, 83) 66%
+                );
                 border-radius: 50px 50px 0 0;
                 box-shadow: 0 0 0 2px #363636;
                 left: 10px;
