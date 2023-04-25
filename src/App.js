@@ -30,7 +30,15 @@ function App() {
             <div className="navigation-container">
                 <nav className="navigation">
                     <div className="board">
-                        <div className="wrap">
+                        <div className="wrap board__first-switch">
+                            <input type="checkbox"></input>
+                            <div className="button"></div>
+                        </div>
+                        <div className="wrap board__second-switch">
+                            <input type="checkbox"></input>
+                            <div className="button"></div>
+                        </div>
+                        <div className="wrap board__third-switch">
                             <input type="checkbox"></input>
                             <div className="button"></div>
                         </div>

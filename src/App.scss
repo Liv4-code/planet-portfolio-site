@@ -43,14 +43,14 @@ a {
         rgba(0, 0, 0, 0.8) 0px 2px 5px inset;
 
     .board {
-        width: 33px;
-        height: 35px;
+        width: 99px;
+        height: 36px;
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
         top: 63px;
-        right: 18px;
+        right: 10%;
 
         .wrap {
             width: 100%;
@@ -173,6 +173,21 @@ a {
     display: none;
 }
 
+@media (max-width: $breakpoint-laptop) {
+    .board {
+        width: 33px !important;
+        right: 3% !important;
+
+        &__second-switch {
+            display: none;
+        }
+
+        &__third-switch {
+            display: none;
+        }
+    }
+}
+
 @media (max-width: $breakpoint-tablet) {
     .navigation {
         width: 100vw;
@@ -180,6 +195,10 @@ a {
         bottom: -95px;
         height: 190px;
         border-radius: 345px / 99px;
+
+        .board {
+            display: none;
+        }
 
         .navigation_display {
             margin-top: 16px;
