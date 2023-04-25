@@ -57,7 +57,7 @@ a {
         align-items: center;
         position: relative;
         top: 63px;
-        right: 10%;
+        right: 3%;
 
         .wrap {
             width: 100%;
@@ -138,7 +138,6 @@ a {
         align-items: center;
         margin: 25px 7px 0 7px;
         position: relative;
-        right: 4.3%;
     }
 
     .navigation_display__light {
@@ -201,14 +200,53 @@ a {
     display: none;
 }
 
+.radars-container {
+    width: 99px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 63px;
+    left: 3%;
+
+    .radar {
+        margin: 5%;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #3a3a3a;
+        box-shadow: 1px 1px 3px 1px #292929;
+
+        &__scanner {
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background: conic-gradient(#19801755, #4f9f2c);
+        }
+
+        &__scanner--fast {
+            animation: scanning 2s infinite linear;
+        }
+
+        &__scanner--slow {
+            animation: scanning 4s infinite linear;
+        }
+    }
+}
+
 @media (max-width: $breakpoint-laptop) {
     .navigation_display {
-        right: 5px !important;
+        right: -29px !important;
     }
 
     .board {
         width: 33px !important;
-        right: 5% !important;
+        right: -2% !important;
 
         &__second-switch {
             display: none;
@@ -217,6 +255,10 @@ a {
         &__third-switch {
             display: none;
         }
+    }
+
+    .radar__second {
+        display: none;
     }
 }
 
@@ -260,5 +302,15 @@ a {
         .navigation__button-icon {
             display: block;
         }
+
+        .radar {
+            display: none;
+        }
+    }
+}
+
+@keyframes scanning {
+    to {
+        transform: rotate(1turn);
     }
 }

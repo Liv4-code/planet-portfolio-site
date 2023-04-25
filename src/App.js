@@ -101,6 +101,14 @@ function App() {
                         </Link>
                         <div className="navigation_display__light"></div>
                     </div>
+                    <div className="radars-container">
+                        <div className="radar radar__first">
+                            <div className="radar__scanner radar__scanner--fast"></div>
+                        </div>
+                        <div className="radar radar__second">
+                            <div className="radar__scanner radar__scanner--slow"></div>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </div>
