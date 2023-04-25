@@ -202,6 +202,10 @@ a {
 }
 
 @media (max-width: $breakpoint-laptop) {
+    .navigation_display {
+        right: 5px !important;
+    }
+
     .board {
         width: 33px !important;
         right: 5% !important;

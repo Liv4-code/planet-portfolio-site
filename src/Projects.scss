@@ -129,6 +129,24 @@ $breakpoint-xsml-cellphone: 400px;
 }
 
 @media (max-width: $breakpoint-tablet) {
+    .projects-container {
+        height: 140vh;
+
+        &::before {
+            height: 140vh;
+        }
+
+        .projects {
+            margin-top: 140px;
+        }
+    }
+
+    .projects-container__heading {
+        width: 210px;
+        padding: 20px;
+        bottom: 492px;
+    }
+
     .projects {
         flex-direction: column;
         width: 100%;
@@ -149,6 +167,10 @@ $breakpoint-xsml-cellphone: 400px;
 @media (max-width: $breakpoint-cellphone) {
     .projects-container {
         height: 200vh !important;
+
+        &__heading {
+            bottom: 737px;
+        }
     }
 
     .projects-container::before {
@@ -162,7 +184,7 @@ $breakpoint-xsml-cellphone: 400px;
     }
 
     .card {
-        height: 24% !important;
+        height: 23% !important;
         padding: 6% !important;
     }
 
