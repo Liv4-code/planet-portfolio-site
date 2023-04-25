@@ -29,22 +29,22 @@ a {
     bottom: -125px;
     width: 90vw;
     height: 250px;
-    // background: linear-gradient(
-    //     rgb(224, 224, 224) 2%,
-    //     rgb(200, 200, 200) 1%,
-    //     rgb(150, 150, 150) 13%,
-    //     rgb(50, 50, 50) 76%,
-    //     rgb(56, 56, 56) 87%,
-    //     rgb(42, 42, 42) 100%
-    // );
     background: linear-gradient(
-        rgb(149 149 149) 4%,
-        rgb(139, 139, 139) 3%,
-        rgb(102, 101, 101) 13%,
-        rgb(18, 18, 18) 76%,
+        rgb(224, 224, 224) 2%,
+        rgb(200, 200, 200) 1%,
+        rgb(150, 150, 150) 13%,
+        rgb(50, 50, 50) 76%,
         rgb(56, 56, 56) 87%,
         rgb(42, 42, 42) 100%
     );
+    // background: linear-gradient(
+    //     rgb(149 149 149) 4%,
+    //     rgb(139, 139, 139) 3%,
+    //     rgb(102, 101, 101) 13%,
+    //     rgb(18, 18, 18) 76%,
+    //     rgb(56, 56, 56) 87%,
+    //     rgb(42, 42, 42) 100%
+    // );
     border-radius: 480px / 127px;
     box-shadow: -3px -10px 10px -12px rgba(46, 46, 46, 0.75),
         rgba(0, 0, 0, 0.8) 0px 2px 5px inset;
@@ -204,7 +204,7 @@ a {
 @media (max-width: $breakpoint-laptop) {
     .board {
         width: 33px !important;
-        right: 3% !important;
+        right: 5% !important;
 
         &__second-switch {
             display: none;
