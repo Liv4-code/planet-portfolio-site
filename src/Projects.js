@@ -3,6 +3,7 @@ import "./Projects.scss";
 function Projects() {
     return (
         <div className="projects-container">
+            <h2 className="projects-container__heading">Projects</h2>
             <div className="projects">
                 <div className="card">
                     <a
