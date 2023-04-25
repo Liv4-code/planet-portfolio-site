@@ -2,6 +2,7 @@ $font-stack: Helvetica, sans-serif;
 $primary-color: #c1c1c1;
 $breakpoint-laptop: 1024px;
 $breakpoint-tablet: 769px;
+$breakpoint-cellphone: 600px;
 
 @import url("https://fonts.googleapis.com/css2?family=Genos:wght@100;200;400&display=swap");
 
@@ -306,6 +307,12 @@ a {
         .radar {
             display: none;
         }
+    }
+}
+
+@media (max-width: $breakpoint-cellphone) {
+    .navigation_display {
+        right: -53px !important;
     }
 }
 
