@@ -13,9 +13,9 @@ $breakpoint-xsml-cellphone: 400px;
     justify-content: center;
     align-items: center;
 
-    &__heading {
-        width: 20%;
-        padding: 2%;
+    .projects-container__heading {
+        width: 16%;
+        padding: 20px;
         position: relative;
         z-index: 1;
         bottom: 330px;
@@ -37,6 +37,23 @@ $breakpoint-xsml-cellphone: 400px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        &__heading {
+            display: none;
+            width: 200px;
+            padding: 3%;
+            color: rgb(241, 241, 241);
+            text-align: center;
+            font-family: "Finger Paint", cursive;
+            font-size: 30px;
+            text-shadow: -1px -1px 1px #000;
+            background-image: url(./assets/wood-texture.jpeg);
+            background-size: 100% 100%;
+            box-shadow: rgba(0, 0, 0, 0.8) 0px 2px 4px inset,
+                rgba(0, 0, 0, 0.5) 0px 7px 13px -3px,
+                rgba(0, 0, 0, 0.6) 0px -5px 0px inset;
+            border-radius: 5px;
+        }
     }
 
     .card {
@@ -130,31 +147,34 @@ $breakpoint-xsml-cellphone: 400px;
     .projects-container {
         height: 140vh;
 
+        &__heading {
+            display: none;
+        }
+
         &::before {
             height: 140vh;
         }
 
         .projects {
-            margin-top: 140px;
-        }
-    }
+            margin-top: -70px;
+            height: 100%;
+            justify-content: center;
 
-    .projects-container__heading {
-        width: 210px;
-        padding: 20px;
-        bottom: 492px;
+            &__heading {
+                display: block;
+                margin-bottom: 12%;
+            }
+        }
     }
 
     .projects {
         flex-direction: column;
         width: 100%;
-        margin-bottom: 15%;
     }
 
     .card {
         width: 68vw !important;
         height: 20vh !important;
-        margin: 0 0 15px 0 !important;
     }
 
     .card_project-description {
@@ -164,21 +184,21 @@ $breakpoint-xsml-cellphone: 400px;
 
 @media (max-width: $breakpoint-cellphone) {
     .projects-container {
-        height: 200vh !important;
-
-        &__heading {
-            bottom: 655px;
-        }
+        height: 220vh !important;
     }
 
     .projects-container::before {
-        height: 200vh;
+        height: 220vh;
         width: 100vw;
     }
 
     .projects {
-        height: 100% !important;
-        justify-content: center !important;
+        height: 200vh !important;
+
+        &__heading {
+            width: 200px !important;
+            margin-top: -70px;
+        }
     }
 
     .card {

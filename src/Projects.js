@@ -5,6 +5,7 @@ function Projects() {
         <div className="projects-container">
             <h2 className="projects-container__heading">Projects</h2>
             <div className="projects">
+                <h2 className="projects__heading">Projects</h2>
                 <div className="card">
                     <a
                         href="https://iotdashboard.netlify.app/"
