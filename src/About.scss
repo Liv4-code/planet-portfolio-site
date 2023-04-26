@@ -1,3 +1,4 @@
+$breakpoint-laptop: 1025px;
 $breakpoint-tablet: 768px;
 $breakpoint-cellphone: 600px;
 $breakpoint-sml-cellphone: 500px;
@@ -32,7 +33,7 @@ $breakpoint-xsml-cellphone: 400px;
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-right: 2px solid rgba(255, 255, 255, 0.2);
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(25px);
 
     .about-glass-card__heading {
         font-size: 40px;
@@ -58,10 +59,15 @@ $breakpoint-xsml-cellphone: 400px;
     }
 }
 
+@media (max-width: $breakpoint-laptop) {
+    .about-glass-card {
+        color: white;
+    }
+}
+
 @media (max-width: $breakpoint-tablet) {
     .about-glass-card {
         width: 85%;
-        color: white;
     }
 
     .about-glass-card__heading {

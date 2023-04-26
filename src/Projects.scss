@@ -17,13 +17,13 @@ $breakpoint-xsml-cellphone: 400px;
 
     .projects-container__heading {
         width: 16%;
+        height: 60px;
         padding: 20px;
         position: relative;
         z-index: 1;
         bottom: 330px;
         color: rgb(241, 241, 241);
         text-align: center;
-        font-family: "Finger Paint", cursive;
         font-size: 30px;
         text-shadow: -1px -1px 1px #000;
         background-image: url(./assets/wood-texture.jpeg);
@@ -43,6 +43,7 @@ $breakpoint-xsml-cellphone: 400px;
         &__heading {
             display: none;
             width: 200px;
+            height: 60px;
             padding: 3%;
             color: rgb(241, 241, 241);
             text-align: center;
@@ -69,7 +70,7 @@ $breakpoint-xsml-cellphone: 400px;
         border: 2px solid rgba(255, 255, 255, 0.5);
         border-right: 2px solid rgba(255, 255, 255, 0.2);
         border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(25px);
     }
 
     a {
@@ -109,12 +110,12 @@ $breakpoint-xsml-cellphone: 400px;
 @keyframes fade-in-projects {
     from {
         opacity: 0%;
-        background-image: url("./assets/tropical-forest.jpeg");
+        background-image: url("./assets/tropical.jpeg");
     }
 
     to {
         opacity: 100%;
-        background-image: url("./assets/tropical-forest.jpeg");
+        background-image: url("./assets/tropical.jpeg");
     }
 }
 
