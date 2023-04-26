@@ -1,11 +1,22 @@
 import "./Projects.scss";
+import Typewriter from "typewriter-effect";
 
 function Projects() {
     return (
         <div className="projects-container">
             <h2 className="projects-container__heading">Projects</h2>
             <div className="projects">
-                <h2 className="projects__heading">Projects</h2>
+                <h2 className="projects__heading">
+                    <Typewriter
+                        onInit={(typewriter) => {
+                            typewriter
+                                .pauseFor(100)
+                                .changeDelay(100)
+                                .typeString("<h2>Projects</h2>")
+                                .start();
+                        }}
+                    />
+                </h2>
                 <div className="card">
                     <a
                         href="https://iotdashboard.netlify.app/"
