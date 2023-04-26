@@ -9,7 +9,7 @@ function Projects() {
                 <Typewriter
                     onInit={(typewriter) => {
                         typewriter
-                            .pauseFor(200)
+                            .pauseFor(100)
                             .changeDelay(100)
                             .typeString("<h2>Projects</h2>")
                             .start();
@@ -21,7 +21,7 @@ function Projects() {
                     <Typewriter
                         onInit={(typewriter) => {
                             typewriter
-                                .pauseFor(200)
+                                .pauseFor(100)
                                 .changeDelay(100)
                                 .typeString("<h2>Projects</h2>")
                                 .start();

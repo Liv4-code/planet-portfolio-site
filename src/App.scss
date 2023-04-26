@@ -48,7 +48,7 @@ a {
     border-radius: 480px / 127px;
     box-shadow: -3px -10px 10px -12px rgba(46, 46, 46, 0.75),
         rgba(0, 0, 0, 0.8) 0px 2px 5px inset;
-    animation: panelStartup 5s ease-out 9s 1 normal forwards;
+    animation: panelStartup 5s ease-out 8s 1 normal forwards;
 
     .board {
         width: 99px;
@@ -269,7 +269,7 @@ a {
         align-items: start;
         height: 190px;
         border-radius: 345px / 99px;
-        animation: panelStartupMobile 5s ease-out 9s 1 normal forwards;
+        animation: panelStartupMobile 5s ease-out 8s 1 normal forwards;
 
         .board {
             display: none;
