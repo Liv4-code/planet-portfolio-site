@@ -25,7 +25,7 @@ $breakpoint-xsml-cellphone: 400px;
     padding: 2%;
     width: 600px;
     height: 56vh;
-    color: rgb(34, 34, 34);
+    color: #2a2a2a;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -49,18 +49,19 @@ $breakpoint-xsml-cellphone: 400px;
 @keyframes fade-in-about {
     from {
         opacity: 0%;
-        background-image: url("./assets/bubblyland.webp");
+        background-image: url("./assets/bespin.webp");
     }
 
     to {
         opacity: 100%;
-        background-image: url("./assets/bubblyland.webp");
+        background-image: url("./assets/bespin.webp");
     }
 }
 
 @media (max-width: $breakpoint-tablet) {
     .about-glass-card {
         width: 85%;
+        color: white;
     }
 
     .about-glass-card__heading {
