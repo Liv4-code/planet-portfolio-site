@@ -10,16 +10,14 @@ function Home() {
                         typewriter
                             .pauseFor(1000)
                             .changeDelay(50)
-                            .typeString("<h3>Welcome, distant traveller</h3>")
+                            .typeString("<h3>Welcome, distant traveller.</h3>")
                             .pauseFor(500)
-                            .typeString("<h2>My name is Olivia</h2>")
+                            .typeString("<h1>My name is Olivia.</h1>")
                             .pauseFor(500)
-                            .typeString("<h1>I'm a web developer</h1>")
+                            .typeString("<h1>I'm a web developer.</h1>")
                             .pauseFor(300)
-                            .typeString("<h3>Come...</h3>")
-                            .pauseFor(600)
-                            .deleteChars(7)
-                            .typeString("<h3>Explore my world</h3>")
+                            .changeDelay(100)
+                            .typeString("<h4>Come, explore my world</h4>")
                             .start();
                     }}
                 />

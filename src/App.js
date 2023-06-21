@@ -51,7 +51,7 @@ function App() {
                                     src={homeIcon}
                                     alt="Home Button Icon"
                                 />
-                                <p className="navigation__button-text">Home</p>
+                                <p className="navigation__button-text">HOME</p>
                             </button>
                         </Link>
                         <div className="navigation_display__light navigation_display__light--current"></div>
@@ -64,7 +64,7 @@ function App() {
                                     src={aboutIcon}
                                     alt="About Button Icon"
                                 />
-                                <p className="navigation__button-text">About</p>
+                                <p className="navigation__button-text">ABOUT</p>
                             </button>
                         </Link>
                         <div className="navigation_display__light"></div>
@@ -79,7 +79,7 @@ function App() {
                                     alt="Projects Button Icon"
                                 />
                                 <p className="navigation__button-text">
-                                    Projects
+                                    PROJECTS
                                 </p>
                             </button>
                         </Link>
@@ -95,7 +95,7 @@ function App() {
                                     alt="Contact Button Icon"
                                 />
                                 <p className="navigation__button-text">
-                                    Contact
+                                    CONTACT
                                 </p>
                             </button>
                         </Link>

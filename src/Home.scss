@@ -10,19 +10,28 @@ $breakpoint-tablet: 1150px;
 }
 
 .heading {
-    padding: 3% 0 0 16%;
-    color: #1a1a1a;
+    padding-top: 9%;
+    color: #505068;
+    text-align: center;
+    font-size: larger;
+    line-height: 170%;
+    font-weight: 600;
+}
+
+h4 {
+    margin-top: 4%;
+    color: #da561c;
 }
 
 @keyframes fade-in-home {
     from {
         opacity: 0%;
-        background-image: url("./assets/dunes.jpeg");
+        background-image: url("./assets/dune.jpg");
     }
 
     to {
         opacity: 100%;
-        background-image: url("./assets/dunes.jpeg");
+        background-image: url("./assets/dune.jpg");
     }
 }
 
