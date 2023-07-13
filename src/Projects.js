@@ -47,6 +47,22 @@ function Projects() {
                 </div>
                 <div className="card">
                     <a
+                        href="https://drpcthomasobgyn.co.za/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <h3 className="card_project-title">
+                            Dr P.C. Thomas OBGYN Practice WordPress Website
+                        </h3>
+                        <p className="card_project-description">
+                            This site was built with Divi and is fully
+                            responsive and uses SEO for client traffic
+                            generation.
+                        </p>
+                    </a>
+                </div>
+                <div className="card">
+                    <a
                         href="https://lotus-interiors.netlify.app"
                         target="_blank"
                         rel="noreferrer"
