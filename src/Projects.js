@@ -28,73 +28,60 @@ function Projects() {
                         }}
                     />
                 </h2>
-                <div className="card">
-                    <a
-                        href="https://iotdashboard.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <h3 className="card_project-title">
-                            IOT Device Dashboard
-                        </h3>
-                        <p className="card_project-description">
-                            {" "}
-                            A dynamic UI that pulls data from the Ubidots Rest
-                            API and displays it in an interactive way, through
-                            charts, tables and device comparison cards.
-                        </p>
-                    </a>
-                </div>
-                <div className="card">
-                    <a
-                        href="https://drpcthomasobgyn.co.za/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <h3 className="card_project-title">
-                            Dr P.C. Thomas OBGYN Practice WordPress Website
-                        </h3>
-                        <p className="card_project-description">
-                            This site was built with Divi and is fully
-                            responsive and uses SEO for client traffic
-                            generation.
-                        </p>
-                    </a>
-                </div>
-                <div className="card">
-                    <a
-                        href="https://lotus-interiors.netlify.app"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <h3 className="card_project-title">
-                            Lotus Interiors Website
-                        </h3>
-                        <p className="card_project-description">
-                            Using a mobile-first approach, this website is fully
-                            responsive and was built with SCSS using the BEM
-                            naming convention.
-                        </p>
-                    </a>
-                </div>
-                <div className="card">
-                    <a
-                        href="https://water-audit-tool.netlify.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <h3 className="card_project-title">
-                            Multi-Step Audit Tool
-                        </h3>
-                        <p className="card_project-description">
-                            {" "}
-                            This multi-step input form is used to gather
-                            information about a building's water-use
-                            infrastructure. The data retrieved is used to
-                            calculate savings and compiled into a report that's
-                            sent upon final form submission.
-                        </p>
-                    </a>
+                <div>
+                    <div className="card">
+                        <a
+                            href="https://iotdashboard.netlify.app/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <h3 className="card_project-title">
+                                IOT Device Dashboard
+                            </h3>
+                            <p className="card_project-description">
+                                {" "}
+                                A dynamic UI that pulls data from the Ubidots
+                                Rest API and displays it in an interactive way,
+                                through charts, tables and device comparison
+                                cards.
+                            </p>
+                        </a>
+                    </div>
+                    <div className="card">
+                        <a
+                            href="https://lotus-interiors.netlify.app"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <h3 className="card_project-title">
+                                Lotus Interiors Website
+                            </h3>
+                            <p className="card_project-description">
+                                Using a mobile-first approach, this website is
+                                fully responsive and was built with SCSS using
+                                the BEM naming convention.
+                            </p>
+                        </a>
+                    </div>
+                    <div className="card">
+                        <a
+                            href="https://water-audit-tool.netlify.app/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <h3 className="card_project-title">
+                                Multi-Step Audit Tool
+                            </h3>
+                            <p className="card_project-description">
+                                {" "}
+                                This multi-step input form is used to gather
+                                information about a building's water-use
+                                infrastructure. The data retrieved is used to
+                                calculate savings and compiled into a report
+                                that's sent upon final form submission.
+                            </p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
