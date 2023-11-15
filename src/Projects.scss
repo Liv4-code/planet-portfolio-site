@@ -113,11 +113,15 @@ $breakpoint-xsml-cellphone: 400px;
 
 @keyframes fade-in-projects {
     from {
+        scale: 1;
+        transform: translate(0, 300px);
         opacity: 0%;
         background-image: url("./assets/tropical.jpeg");
     }
 
     to {
+        scale: 1.1;
+        transform: translate(0, 0);
         opacity: 100%;
         background-image: url("./assets/tropical.jpeg");
     }

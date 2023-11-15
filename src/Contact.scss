@@ -54,25 +54,17 @@ $breakpoint-xsml-cellphone: 400px;
     }
 }
 
-@keyframes bubble-move {
-    0% {
-        border-radius: 62% 38% 60% 40% / 39% 60% 40% 61%;
-    }
-    50% {
-        border-radius: 62% 38% 60% 40% / 52% 50% 50% 48%;
-    }
-    100% {
-        border-radius: 62% 38% 60% 40% / 43% 60% 40% 57%;
-    }
-}
-
 @keyframes fade-in-contact {
     from {
+        scale: 1;
+        transform: translate(0, 300px);
         opacity: 0%;
         background-image: url("./assets/underwater.webp");
     }
 
     to {
+        scale: 1.1;
+        transform: translate(0, 0);
         opacity: 100%;
         background-image: url("./assets/underwater.webp");
     }
