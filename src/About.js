@@ -1,8 +1,18 @@
 import "./About.scss";
+import Typewriter from "typewriter-effect";
 
 function About() {
     return (
         <div className="about-container">
+            <Typewriter
+                onInit={(typewriter) => {
+                    typewriter
+                        .pauseFor(1500)
+                        .changeDelay(40)
+                        .typeString("<h5>Destination: About</h5>")
+                        .start();
+                }}
+            />
             <div className="about-glass-card">
                 <h2 className="about-glass-card__heading">A Bit About Me</h2>
                 <p className="about-glass-card__text">

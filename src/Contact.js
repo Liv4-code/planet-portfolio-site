@@ -1,8 +1,19 @@
 import "./Contact.scss";
+import Typewriter from "typewriter-effect";
 
 function Contact() {
     return (
         <div className="contact-container">
+            <Typewriter
+                onInit={(typewriter) => {
+                    typewriter
+                        .pauseFor(1500)
+                        .changeDelay(40)
+                        .typeString("<h5>Destination: Contact</h5>")
+                        .start();
+                }}
+            />
+
             <div className="contact-glass-card">
                 <h2 className="contact-glass-card__heading">Contact Me</h2>
                 <p className="contact-glass-card__text">

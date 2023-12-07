@@ -2,6 +2,7 @@ $breakpoint-tablet: 1150px;
 
 .home-container {
     font-size: 1.8em;
+    position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -18,24 +19,36 @@ $breakpoint-tablet: 1150px;
     font-weight: 600;
 }
 
+.rising-sun__img {
+    position: absolute;
+    bottom: 270px;
+    right: 50px;
+}
+
 h4 {
-    margin-top: 4%;
-    color: #da561c;
+    margin-top: 2%;
+    color: #b85f5c;
+}
+
+h5 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    color: #505068;
+    font-size: 22px;
 }
 
 @keyframes fade-in-home {
     from {
-        scale: 1;
-        transform: translate(0, 300px);
+        transform: translate(0, 200px);
         opacity: 0%;
-        background-image: url("./assets/dune.jpg");
+        background-image: url("./assets/desert.webp");
     }
 
     to {
-        scale: 1.1;
         transform: translate(0, 0);
         opacity: 100%;
-        background-image: url("./assets/dune.jpg");
+        background-image: url("./assets/desert.webp");
     }
 }
 

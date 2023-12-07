@@ -4,18 +4,15 @@ import Typewriter from "typewriter-effect";
 function Projects() {
     return (
         <div className="projects-container">
-            <h2 className="projects-container__heading">
-                {" "}
-                <Typewriter
-                    onInit={(typewriter) => {
-                        typewriter
-                            .pauseFor(100)
-                            .changeDelay(100)
-                            .typeString("<h2>Projects</h2>")
-                            .start();
-                    }}
-                />
-            </h2>
+            <Typewriter
+                onInit={(typewriter) => {
+                    typewriter
+                        .pauseFor(1500)
+                        .changeDelay(40)
+                        .typeString("<h5>Destination: Projects</h5>")
+                        .start();
+                }}
+            />
             <div className="projects">
                 <h2 className="projects__heading">
                     <Typewriter

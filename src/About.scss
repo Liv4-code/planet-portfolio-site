@@ -10,6 +10,14 @@ $breakpoint-xsml-cellphone: 400px;
     height: 100vh;
     animation: fade-in-about 2s ease-in-out 1;
     animation-fill-mode: forwards;
+
+    h5 {
+        position: relative;
+        top: 50px;
+        left: 100px;
+        color: #293231;
+        font-size: 22px;
+    }
 }
 
 .about-glass-card {
