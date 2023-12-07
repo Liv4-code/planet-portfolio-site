@@ -5,10 +5,10 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import "./App.scss";
-import homeIcon from "./assets/home-1.svg";
-import aboutIcon from "./assets/personal-collection.svg";
+import homeIcon from "./assets/home.svg";
+import aboutIcon from "./assets/about.svg";
 import projectsIcon from "./assets/projects.svg";
-import contactIcon from "./assets/phone.svg";
+import contactIcon from "./assets/contact.svg";
 
 function App() {
     return (
