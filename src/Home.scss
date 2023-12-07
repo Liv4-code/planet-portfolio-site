@@ -10,11 +10,19 @@ $breakpoint-tablet: 1150px;
     animation-fill-mode: forwards;
 }
 
+.Typewriter {
+    position: absolute;
+    top: 1vh;
+    left: 2vw;
+    color: #505068;
+    font-size: 22px;
+}
+
 .heading {
     padding-top: 9%;
     color: #505068;
     text-align: center;
-    font-size: larger;
+    font-size: 1.4em;
     line-height: 170%;
     font-weight: 600;
 }
@@ -30,13 +38,13 @@ h4 {
     color: #b85f5c;
 }
 
-h5 {
-    position: absolute;
-    top: 50px;
-    left: 100px;
-    color: #505068;
-    font-size: 22px;
-}
+// h5 {
+//     position: absolute;
+//     top: 50px;
+//     left: 100px;
+//     color: #505068;
+//     font-size: 22px;
+// }
 
 @keyframes fade-in-home {
     from {
