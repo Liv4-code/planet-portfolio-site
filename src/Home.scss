@@ -8,14 +8,13 @@ $breakpoint-tablet: 1150px;
     height: 100vh;
     animation: fade-in-home 3s ease-out;
     animation-fill-mode: forwards;
-}
+    background-image: url("./assets/desert.webp");
 
-.Typewriter {
-    position: absolute;
-    top: 1vh;
-    left: 2vw;
-    color: #505068;
-    font-size: 22px;
+    span {
+        color: #505068;
+        font-size: 22px;
+        margin: 2vh 0 0 1vw;
+    }
 }
 
 .heading {
@@ -38,35 +37,24 @@ h4 {
     color: #b85f5c;
 }
 
-// h5 {
-//     position: absolute;
-//     top: 50px;
-//     left: 100px;
-//     color: #505068;
-//     font-size: 22px;
-// }
-
 @keyframes fade-in-home {
     from {
         transform: translate(0, 200px);
         opacity: 0%;
-        background-image: url("./assets/desert.webp");
     }
 
     to {
         transform: translate(0, 0);
         opacity: 100%;
-        background-image: url("./assets/desert.webp");
     }
 }
 
 @media (max-width: $breakpoint-tablet) {
     .home-container {
-        font-size: 1.5em;
+        font-size: 1.2em;
 
         .heading {
-            text-align: end;
-            padding: 5%;
+            padding: 3%;
         }
     }
 }

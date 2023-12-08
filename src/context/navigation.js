@@ -2,11 +2,6 @@ import { createContext, useState, useEffect } from "react";
 
 const NavigationContext = createContext();
 
-// To create lifting off effect:
-// Listen to when any nav button is clicked
-// Call function that changes scale and x-translation of component container
-// Only navigate once 2 secs are up
-
 function NavigationProvider({ children }) {
     const [currentPath, setCurrentPath] = useState(window.location.pathname);
 
