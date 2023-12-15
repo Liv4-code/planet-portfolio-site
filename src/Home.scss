@@ -41,36 +41,36 @@ $breakpoint-cellphone: 600px;
 @keyframes fade-in-home {
     from {
         opacity: 0%;
-        background-image: url("./assets/Home-2.png");
+        background-image: url("./assets/Home.webp");
     }
 
     to {
         opacity: 100%;
-        background-image: url("./assets/Home-2.png");
+        background-image: url("./assets/Home.webp");
     }
 }
 
 @keyframes fade-in-home-laptop {
     from {
         opacity: 0%;
-        background-image: url("./assets/Mobile-Home.png");
+        background-image: url("./assets/Home-Laptop.webp");
     }
 
     to {
         opacity: 100%;
-        background-image: url("./assets/Mobile-Home.png");
+        background-image: url("./assets/Home-Laptop.webp");
     }
 }
 
 @keyframes fade-in-home-mobile {
     from {
         opacity: 0%;
-        background-image: url("./assets/Mobile-Home-Cell.png");
+        background-image: url("./assets/Home-Cell.webp");
     }
 
     to {
         opacity: 100%;
-        background-image: url("./assets/Mobile-Home-Cell.png");
+        background-image: url("./assets/Home-Cell.webp");
     }
 }
 
