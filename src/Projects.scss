@@ -25,13 +25,6 @@ $breakpoint-xsml-cellphone: 400px;
         color: rgb(241, 241, 241);
         text-align: center;
         font-size: 30px;
-        text-shadow: -1px -1px 1px #000;
-        background-image: url(./assets/wood-texture.jpeg);
-        background-size: 100% 100%;
-        box-shadow: rgba(0, 0, 0, 0.8) 0px 2px 4px inset,
-            rgba(0, 0, 0, 0.5) 0px 7px 13px -3px,
-            rgba(0, 0, 0, 0.6) 0px -5px 0px inset;
-        border-radius: 5px;
     }
 
     .projects {
@@ -45,20 +38,10 @@ $breakpoint-xsml-cellphone: 400px;
         }
 
         &__heading {
-            display: none;
-            width: 200px;
-            height: 60px;
             padding: 3%;
             color: rgb(241, 241, 241);
             text-align: center;
             font-size: 30px;
-            text-shadow: -1px -1px 1px #000;
-            background-image: url(./assets/wood-texture.jpeg);
-            background-size: 100% 100%;
-            box-shadow: rgba(0, 0, 0, 0.8) 0px 2px 4px inset,
-                rgba(0, 0, 0, 0.5) 0px 7px 13px -3px,
-                rgba(0, 0, 0, 0.6) 0px -5px 0px inset;
-            border-radius: 5px;
         }
     }
 
