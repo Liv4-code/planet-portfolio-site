@@ -4,17 +4,16 @@ import { Typewriter } from "react-simple-typewriter";
 function Projects() {
     return (
         <div className="projects-container">
-            <h2 className="projects-container__heading">
-                <span className="heading__small">
-                    <Typewriter
-                        words={["", "Destination: Projects"]}
-                        loop={1}
-                        cursorStyle="_"
-                        typeSpeed={80}
-                        delaySpeed={2500}
-                    />
-                </span>
-            </h2>
+            <h5>
+                <Typewriter
+                    words={["", "Destination: Projects"]}
+                    loop={1}
+                    cursorStyle="_"
+                    typeSpeed={80}
+                    delaySpeed={2000}
+                />
+            </h5>
+
             <div className="projects">
                 <div>
                     <div className="card">

@@ -10,6 +10,13 @@ $breakpoint-xsml-cellphone: 400px;
     color: rgb(241, 241, 241);
     animation: fade-in-contact 2s ease-in-out 1;
     animation-fill-mode: forwards;
+
+    h5 {
+        margin: 1vh 0 0 2vw;
+        font-size: 18px;
+        color: #505068;
+        font-weight: bold;
+    }
 }
 
 .contact-glass-card {
@@ -54,31 +61,36 @@ $breakpoint-xsml-cellphone: 400px;
     }
 }
 
-@keyframes bubble-move {
-    0% {
-        border-radius: 62% 38% 60% 40% / 39% 60% 40% 61%;
-    }
-    50% {
-        border-radius: 62% 38% 60% 40% / 52% 50% 50% 48%;
-    }
-    100% {
-        border-radius: 62% 38% 60% 40% / 43% 60% 40% 57%;
-    }
-}
-
 @keyframes fade-in-contact {
     from {
         opacity: 0%;
-        background-image: url("./assets/underwater.webp");
+        background-image: url("./assets/Contact.png");
     }
 
     to {
         opacity: 100%;
-        background-image: url("./assets/underwater.webp");
+        background-image: url("./assets/Contact.png");
+    }
+}
+
+@keyframes fade-in-contact-tablet {
+    from {
+        opacity: 0%;
+        background-image: url("./assets/Contact-Mobile.png");
+    }
+
+    to {
+        opacity: 100%;
+        background-image: url("./assets/Contact-Mobile.png");
     }
 }
 
 @media (max-width: $breakpoint-tablet) {
+    .contact-container {
+        animation: fade-in-contact-tablet 2s ease-in-out 1;
+        animation-fill-mode: forwards;
+    }
+
     .contact-glass-card {
         width: 70%;
         height: 55% !important;

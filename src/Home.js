@@ -1,11 +1,9 @@
 import "./Home.scss";
 import { Typewriter } from "react-simple-typewriter";
-// import img from "./assets/Mobile-Home.png";
 
 function Home() {
     return (
         <div className="home-container">
-            {/* <img src={img} alt="Desert Landscape Background" /> */}
             <h5>
                 <Typewriter
                     words={["", "Destination: Home"]}

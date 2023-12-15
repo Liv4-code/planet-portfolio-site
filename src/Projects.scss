@@ -11,20 +11,14 @@ $breakpoint-xsml-cellphone: 400px;
     justify-content: center;
     align-items: center;
 
-    .Typewriter__cursor {
-        display: none;
-    }
-
-    .projects-container__heading {
-        width: 200px;
-        height: 60px;
-        padding: 20px;
-        position: relative;
-        z-index: 1;
-        bottom: 330px;
-        color: rgb(241, 241, 241);
-        text-align: center;
-        font-size: 30px;
+    h5 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 1vh 0 0 2vw;
+        font-size: 18px;
+        color: #505068;
+        font-weight: bold;
     }
 
     .projects {
@@ -35,13 +29,6 @@ $breakpoint-xsml-cellphone: 400px;
 
         & div {
             display: flex;
-        }
-
-        &__heading {
-            padding: 3%;
-            color: rgb(241, 241, 241);
-            text-align: center;
-            font-size: 30px;
         }
     }
 
@@ -97,12 +84,24 @@ $breakpoint-xsml-cellphone: 400px;
 @keyframes fade-in-projects {
     from {
         opacity: 0%;
-        background-image: url("./assets/tropical.jpeg");
+        background-image: url("./assets/Projects-6.png");
     }
 
     to {
         opacity: 100%;
-        background-image: url("./assets/tropical.jpeg");
+        background-image: url("./assets/Projects-6.png");
+    }
+}
+
+@keyframes fade-in-projects-laptop {
+    from {
+        opacity: 0%;
+        background-image: url("./assets/Projects-Mobile.png");
+    }
+
+    to {
+        opacity: 100%;
+        background-image: url("./assets/Projects-Mobile.png");
     }
 }
 
@@ -121,6 +120,11 @@ $breakpoint-xsml-cellphone: 400px;
         margin: 0 2vw 2vw 2vw !important;
         height: 41vh !important;
         width: 28vw !important;
+    }
+
+    .projects-container::before {
+        animation: fade-in-projects-laptop 2s ease-in-out;
+        animation-fill-mode: forwards;
     }
 
     .projects-container__heading {
@@ -152,12 +156,14 @@ $breakpoint-xsml-cellphone: 400px;
         }
 
         .projects {
-            margin-top: -10vh;
-            height: 100%;
-            justify-content: center;
+            height: inherit;
 
             & div {
+                display: flex;
                 flex-direction: column;
+                justify-content: space-around;
+                height: inherit;
+                margin-bottom: 5vh;
             }
 
             &__heading {
@@ -184,7 +190,7 @@ $breakpoint-xsml-cellphone: 400px;
 
 @media (max-width: $breakpoint-cellphone) {
     .projects-container {
-        height: 220vh !important;
+        height: 195vh !important;
     }
 
     .projects-container::before {
@@ -202,7 +208,7 @@ $breakpoint-xsml-cellphone: 400px;
     }
 
     .card {
-        height: 32% !important;
+        height: 17% !important;
         padding: 5vw !important;
     }
 
