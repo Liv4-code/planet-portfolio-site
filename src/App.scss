@@ -12,6 +12,14 @@ $breakpoint-cellphone: 600px;
     font-family: "Genos", sans-serif;
 }
 
+body {
+    background: linear-gradient(
+        180deg,
+        hsla(16, 91%, 83%, 0.652),
+        rgba(255, 238, 204, 0.568)
+    );
+}
+
 a {
     color: #363636;
     text-decoration: none;

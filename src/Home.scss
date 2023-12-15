@@ -1,4 +1,6 @@
-$breakpoint-tablet: 1150px;
+$breakpoint-laptop: 1025px;
+$breakpoint-tablet: 940px;
+$breakpoint-cellphone: 600px;
 
 .home-container {
     font-size: 1.8em;
@@ -7,6 +9,19 @@ $breakpoint-tablet: 1150px;
     height: 100vh;
     animation: fade-in-home 3s ease-in-out;
     animation-fill-mode: forwards;
+
+    img {
+        width: 100vw;
+        height: inherit;
+        object-fit: cover;
+    }
+
+    h5 {
+        margin: 1vh 0 0 2vw;
+        font-size: 0.8em;
+        color: #505068;
+        font-weight: bold;
+    }
 }
 
 .heading {
@@ -16,32 +31,69 @@ $breakpoint-tablet: 1150px;
     font-size: larger;
     line-height: 170%;
     font-weight: 600;
-}
 
-h4 {
-    margin-top: 4%;
-    color: #da561c;
+    h4 {
+        margin-top: 4%;
+        color: #b85f5c;
+    }
 }
 
 @keyframes fade-in-home {
     from {
         opacity: 0%;
-        background-image: url("./assets/dune.jpg");
+        background-image: url("./assets/Home-2.png");
     }
 
     to {
         opacity: 100%;
-        background-image: url("./assets/dune.jpg");
+        background-image: url("./assets/Home-2.png");
     }
 }
 
-@media (max-width: $breakpoint-tablet) {
+@keyframes fade-in-home-laptop {
+    from {
+        opacity: 0%;
+        background-image: url("./assets/Mobile-Home.png");
+    }
+
+    to {
+        opacity: 100%;
+        background-image: url("./assets/Mobile-Home.png");
+    }
+}
+
+@keyframes fade-in-home-mobile {
+    from {
+        opacity: 0%;
+        background-image: url("./assets/Mobile-Home-7.png");
+    }
+
+    to {
+        opacity: 100%;
+        background-image: url("./assets/Mobile-Home-7.png");
+    }
+}
+
+@media (max-width: $breakpoint-laptop) {
     .home-container {
-        font-size: 1.5em;
+        font-size: 1.6em;
+        animation: fade-in-home-laptop 3s ease-in-out;
+        animation-fill-mode: forwards;
 
         .heading {
-            text-align: end;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             padding: 5%;
+            height: 60vh;
         }
+    }
+}
+
+@media (max-width: $breakpoint-cellphone) {
+    .home-container {
+        font-size: 1.34em;
+        animation: fade-in-home-mobile 3s ease-in-out;
+        animation-fill-mode: forwards;
     }
 }

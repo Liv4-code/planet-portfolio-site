@@ -1,26 +1,25 @@
 import "./Home.scss";
-import Typewriter from "typewriter-effect";
+import { Typewriter } from "react-simple-typewriter";
+// import img from "./assets/Mobile-Home.png";
 
 function Home() {
     return (
         <div className="home-container">
-            <div className="heading">
+            {/* <img src={img} alt="Desert Landscape Background" /> */}
+            <h5>
                 <Typewriter
-                    onInit={(typewriter) => {
-                        typewriter
-                            .pauseFor(500)
-                            .changeDelay(40)
-                            .typeString("<h3>Welcome, distant traveller.</h3>")
-                            .changeDelay(50)
-                            .typeString("<h1>My name is Olivia.</h1>")
-                            .pauseFor(500)
-                            .typeString("<h1>I'm a web developer.</h1>")
-                            .pauseFor(300)
-                            .changeDelay(70)
-                            .typeString("<h4>Come, explore my world</h4>")
-                            .start();
-                    }}
+                    words={["", "Destination: Home"]}
+                    loop={1}
+                    cursor
+                    cursorStyle="_"
+                    typeSpeed={50}
+                    delaySpeed={2500}
                 />
+            </h5>
+            <div className="heading">
+                <h3>Welcome, distant traveller.</h3>
+                <h1>I'm Olivia, a web developer.</h1>
+                <h4>Come, explore my world.</h4>
             </div>
         </div>
     );

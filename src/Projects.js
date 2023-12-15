@@ -1,33 +1,21 @@
 import "./Projects.scss";
-import Typewriter from "typewriter-effect";
+import { Typewriter } from "react-simple-typewriter";
 
 function Projects() {
     return (
         <div className="projects-container">
             <h2 className="projects-container__heading">
-                {" "}
-                <Typewriter
-                    onInit={(typewriter) => {
-                        typewriter
-                            .pauseFor(100)
-                            .changeDelay(100)
-                            .typeString("<h2>Projects</h2>")
-                            .start();
-                    }}
-                />
+                <span className="heading__small">
+                    <Typewriter
+                        words={["", "Destination: Projects"]}
+                        loop={1}
+                        cursorStyle="_"
+                        typeSpeed={80}
+                        delaySpeed={2500}
+                    />
+                </span>
             </h2>
             <div className="projects">
-                <h2 className="projects__heading">
-                    <Typewriter
-                        onInit={(typewriter) => {
-                            typewriter
-                                .pauseFor(100)
-                                .changeDelay(100)
-                                .typeString("<h2>Projects</h2>")
-                                .start();
-                        }}
-                    />
-                </h2>
                 <div>
                     <div className="card">
                         <a
