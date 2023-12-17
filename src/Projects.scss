@@ -84,24 +84,24 @@ $breakpoint-xsml-cellphone: 400px;
 @keyframes fade-in-projects {
     from {
         opacity: 0%;
-        background-image: url("./assets/Projects-6.png");
+        background-image: url("./assets/Projects-LR.webp");
     }
 
     to {
         opacity: 100%;
-        background-image: url("./assets/Projects-6.png");
+        background-image: url("./assets/Projects.webp");
     }
 }
 
 @keyframes fade-in-projects-laptop {
     from {
         opacity: 0%;
-        background-image: url("./assets/Projects-Mobile.png");
+        background-image: url("./assets/Projects.webp");
     }
 
     to {
         opacity: 100%;
-        background-image: url("./assets/Projects-Mobile.png");
+        background-image: url("./assets/Projects.webp");
     }
 }
 
