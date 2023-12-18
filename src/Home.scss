@@ -40,19 +40,19 @@ $breakpoint-cellphone: 600px;
 @keyframes fade-in-home {
     from {
         opacity: 0%;
-        background-image: url("./assets/Home.webp");
+        background-image: url("./assets/Home-Desktop-LR.webp");
     }
 
     to {
         opacity: 100%;
-        background-image: url("./assets/Home.webp");
+        background-image: url("./assets/Home-Desktop.webp");
     }
 }
 
 @keyframes fade-in-home-laptop {
     from {
         opacity: 0%;
-        background-image: url("./assets/Home-Laptop.webp");
+        background-image: url("./assets/Home-Laptop-LR.webp");
     }
 
     to {
@@ -64,7 +64,7 @@ $breakpoint-cellphone: 600px;
 @keyframes fade-in-home-mobile {
     from {
         opacity: 0%;
-        background-image: url("./assets/Home-Cell.webp");
+        background-image: url("./assets/Home-Cell-LR.webp");
     }
 
     to {

@@ -82,26 +82,36 @@ $breakpoint-xsml-cellphone: 400px;
 }
 
 @keyframes fade-in-projects {
-    from {
+    0% {
         opacity: 0%;
-        background-image: url("./assets/Projects-LR.webp");
+        background-image: url("./assets/Projects-LR-1.webp");
     }
 
-    to {
+    50% {
+        opacity: 0%;
+        background-image: url("./assets/Projects-LR-2.webp");
+    }
+
+    90% {
+        opacity: 0%;
+        background-image: url("./assets/Projects-LR-3.webp");
+    }
+
+    100% {
         opacity: 100%;
-        background-image: url("./assets/Projects.webp");
+        background-image: url("./assets/Projects-Desktop.webp");
     }
 }
 
 @keyframes fade-in-projects-laptop {
     from {
         opacity: 0%;
-        background-image: url("./assets/Projects.webp");
+        background-image: url("./assets/Projects-Mobile-LR.webp");
     }
 
     to {
         opacity: 100%;
-        background-image: url("./assets/Projects.webp");
+        background-image: url("./assets/Projects-Mobile.webp");
     }
 }
 

@@ -64,24 +64,24 @@ $breakpoint-xsml-cellphone: 400px;
 @keyframes fade-in-contact {
     from {
         opacity: 0%;
-        background-image: url("./assets/Contact.png");
+        background-image: url("./assets/Contact-LR.webp");
     }
 
     to {
         opacity: 100%;
-        background-image: url("./assets/Contact.png");
+        background-image: url("./assets/Contact.webp");
     }
 }
 
 @keyframes fade-in-contact-tablet {
     from {
         opacity: 0%;
-        background-image: url("./assets/Contact-Mobile.png");
+        background-image: url("./assets/Contact-Mobile-LR.webp");
     }
 
     to {
         opacity: 100%;
-        background-image: url("./assets/Contact-Mobile.png");
+        background-image: url("./assets/Contact-Mobile.webp");
     }
 }
 
