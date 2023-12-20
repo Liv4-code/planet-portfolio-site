@@ -6,8 +6,9 @@ $breakpoint-cellphone: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    animation: fade-in-home 3s ease-in-out;
+    animation: fade-in-home 5s ease-in-out;
     animation-fill-mode: forwards;
+    background-image: url("./assets/Home-Desktop-LR.webp");
 
     img {
         width: 100vw;
@@ -39,13 +40,16 @@ $breakpoint-cellphone: 600px;
 
 @keyframes fade-in-home {
     from {
+        transform: translate(0, 300px);
         opacity: 0%;
-        background-image: url("./assets/Home-Desktop-LR.webp");
+        // background-image: url("./assets/Home-Desktop.webp");
+        // background-image: url("./assets/Home-Desktop-LR.webp");
     }
 
     to {
+        transform: translate(0, 0px);
         opacity: 100%;
-        background-image: url("./assets/Home-Desktop.webp");
+        // background-image: url("./assets/Home-Desktop.webp");
     }
 }
 
