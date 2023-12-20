@@ -1,12 +1,10 @@
 import Link from "./components/Link";
 import Route from "./components/Route";
 import Home from "./Home";
-import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import "./App.scss";
 import homeIcon from "./assets/home-1.svg";
-import aboutIcon from "./assets/personal-collection.svg";
 import projectsIcon from "./assets/projects.svg";
 import contactIcon from "./assets/phone.svg";
 
@@ -16,9 +14,6 @@ function App() {
             <div>
                 <Route path="/">
                     <Home path="/" />
-                </Route>
-                <Route path="/about">
-                    <About path="/about" />
                 </Route>
                 <Route path="/projects">
                     <Projects path="/projects" />
@@ -55,19 +50,6 @@ function App() {
                             </button>
                         </Link>
                         <div className="navigation_display__light navigation_display__light--current"></div>
-                    </div>
-                    <div className="navigation_display">
-                        <Link to="/about">
-                            <button className="navigation__button">
-                                <img
-                                    className="navigation__button-icon"
-                                    src={aboutIcon}
-                                    alt="About Button Icon"
-                                />
-                                <p className="navigation__button-text">ABOUT</p>
-                            </button>
-                        </Link>
-                        <div className="navigation_display__light"></div>
                     </div>
 
                     <div className="navigation_display">

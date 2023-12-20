@@ -14,8 +14,15 @@ function Contact() {
                 />
             </h5>
             <div className="contact-glass-card">
-                <h2 className="contact-glass-card__heading">Contact Me</h2>
-                <p className="contact-glass-card__text">
+                <h2 className="contact-glass-card__heading">A Bit About Me</h2>
+                <p className="contact-glass-card__about-text">
+                    At present, I have experience working with Javascript and
+                    React.js. I would love to collaborate with and work
+                    alongside other developers in order to deliver projects that
+                    exceed user expectations. I'm currently learning Redux, and
+                    see myself growing into a full-stack developer.
+                </p>
+                <p className="contact-glass-card__text contact-text">
                     To get in touch, please feel free to reach me over{" "}
                     <a href="mailto:olivia@ekowebsolutions.com">email</a>,{" "}
                     <a

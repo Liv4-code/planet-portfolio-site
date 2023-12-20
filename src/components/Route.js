@@ -16,10 +16,7 @@ function Route({ path, children }) {
             navigationPanel.childNodes[3].childNodes[1].classList.remove(
                 "navigation_display__light--current"
             );
-            navigationPanel.childNodes[4].childNodes[1].classList.remove(
-                "navigation_display__light--current"
-            );
-        } else if (path === "/about" && navigationPanel) {
+        } else if (path === "/projects" && navigationPanel) {
             navigationPanel.childNodes[1].childNodes[1].classList.remove(
                 "navigation_display__light--current"
             );
@@ -29,22 +26,6 @@ function Route({ path, children }) {
             navigationPanel.childNodes[3].childNodes[1].classList.remove(
                 "navigation_display__light--current"
             );
-            navigationPanel.childNodes[4].childNodes[1].classList.remove(
-                "navigation_display__light--current"
-            );
-        } else if (path === "/projects" && navigationPanel) {
-            navigationPanel.childNodes[1].childNodes[1].classList.remove(
-                "navigation_display__light--current"
-            );
-            navigationPanel.childNodes[2].childNodes[1].classList.remove(
-                "navigation_display__light--current"
-            );
-            navigationPanel.childNodes[3].childNodes[1].classList.add(
-                "navigation_display__light--current"
-            );
-            navigationPanel.childNodes[4].childNodes[1].classList.remove(
-                "navigation_display__light--current"
-            );
         } else if (path === "/contact" && navigationPanel) {
             navigationPanel.childNodes[1].childNodes[1].classList.remove(
                 "navigation_display__light--current"
@@ -52,10 +33,7 @@ function Route({ path, children }) {
             navigationPanel.childNodes[2].childNodes[1].classList.remove(
                 "navigation_display__light--current"
             );
-            navigationPanel.childNodes[3].childNodes[1].classList.remove(
-                "navigation_display__light--current"
-            );
-            navigationPanel.childNodes[4].childNodes[1].classList.add(
+            navigationPanel.childNodes[3].childNodes[1].classList.add(
                 "navigation_display__light--current"
             );
         }

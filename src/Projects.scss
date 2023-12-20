@@ -56,13 +56,13 @@ $breakpoint-xsml-cellphone: 400px;
 
     .card_project-title {
         text-align: center;
-        color: rgb(241, 241, 241);
+        color: #333340;
         font-size: 28px;
     }
 
     .card_project-description {
         text-align: center;
-        color: rgb(241, 241, 241);
+        color: #333340;
         font-size: 1.54vw;
         margin-top: 10px;
         height: 80%;
@@ -230,7 +230,7 @@ $breakpoint-xsml-cellphone: 400px;
 
 @media (max-width: $breakpoint-xsml-cellphone) {
     .card_project-title {
-        font-size: 8vw !important;
+        font-size: 6.5vw !important;
     }
 
     .card_project-description {
