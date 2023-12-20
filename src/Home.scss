@@ -6,9 +6,8 @@ $breakpoint-cellphone: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    animation: fade-in-home 3s ease-in-out;
+    animation: fade-in-home 3.5s ease-in-out;
     animation-fill-mode: forwards;
-    background-image: url("./assets/Home-Desktop.webp");
 
     img {
         width: 100vw;
@@ -40,52 +39,45 @@ $breakpoint-cellphone: 600px;
 
 @keyframes fade-in-home {
     from {
-        transform: translate(0, 250px);
         opacity: 0%;
-        // background-image: url("./assets/Home-Desktop-LR.webp");
+        background-image: url("./assets/Home-Desktop-LR.webp");
     }
 
     to {
-        transform: translate(0, 0px);
         opacity: 100%;
-        // background-image: url("./assets/Home-Desktop.webp");
+        background-image: url("./assets/Home-Desktop.webp");
     }
 }
 
 @keyframes fade-in-home-laptop {
     from {
-        transform: translate(0, 250px);
         opacity: 0%;
-        // background-image: url("./assets/Home-Laptop-LR.webp");
+        background-image: url("./assets/Home-Laptop-LR.webp");
     }
 
     to {
-        transform: translate(0, 0);
         opacity: 100%;
-        // background-image: url("./assets/Home-Laptop.webp");
+        background-image: url("./assets/Home-Laptop.webp");
     }
 }
 
 @keyframes fade-in-home-mobile {
     from {
-        transform: translate(0, 250px);
         opacity: 0%;
-        // background-image: url("./assets/Home-Cell-LR.webp");
+        background-image: url("./assets/Home-Cell-LR.webp");
     }
 
     to {
-        transform: translate(0, 0);
         opacity: 100%;
-        // background-image: url("./assets/Home-Cell.webp");
+        background-image: url("./assets/Home-Cell.webp");
     }
 }
 
 @media (max-width: $breakpoint-laptop) {
     .home-container {
         font-size: 1.6em;
-        animation: fade-in-home-laptop 3s ease-in-out;
+        animation: fade-in-home-laptop 3.5s ease-in-out;
         animation-fill-mode: forwards;
-        background-image: url("./assets/Home-Laptop.webp");
 
         .heading {
             display: flex;
@@ -100,8 +92,7 @@ $breakpoint-cellphone: 600px;
 @media (max-width: $breakpoint-cellphone) {
     .home-container {
         font-size: 1.34em;
-        animation: fade-in-home-mobile 3s ease-in-out;
+        animation: fade-in-home-mobile 3.5s ease-in-out;
         animation-fill-mode: forwards;
-        background-image: url("./assets/Home-Cell.webp");
     }
 }
