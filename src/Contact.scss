@@ -97,6 +97,7 @@ $breakpoint-xsml-cellphone: 400px;
     }
 
     .contact-glass-card {
+        top: 20px;
         width: 80%;
         height: 70% !important;
     }
@@ -104,7 +105,7 @@ $breakpoint-xsml-cellphone: 400px;
     .contact-glass-card__about-text {
         padding: 0 !important;
         font-size: 3.3vw !important;
-        width: 90% !important;
+        width: 95% !important;
     }
 
     .contact-glass-card__text {
@@ -145,7 +146,7 @@ $breakpoint-xsml-cellphone: 400px;
 
 @media (max-width: $breakpoint-xsml-cellphone) {
     .contact-glass-card__about-text {
-        font-size: 5.2vw !important;
+        font-size: 5.1vw !important;
     }
 
     .contact-glass-card__text {
