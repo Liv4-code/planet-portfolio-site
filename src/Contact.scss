@@ -42,7 +42,6 @@ $breakpoint-xsml-cellphone: 400px;
     backdrop-filter: blur(10px);
 
     .contact-glass-card__heading {
-        margin: 3%;
         font-size: 38px;
         text-align: center;
     }
@@ -99,19 +98,19 @@ $breakpoint-xsml-cellphone: 400px;
 
     .contact-glass-card {
         width: 80%;
-        height: 60% !important;
+        height: 70% !important;
     }
 
     .contact-glass-card__about-text {
         padding: 0 !important;
         font-size: 3.3vw !important;
-        width: 85% !important;
+        width: 90% !important;
     }
 
     .contact-glass-card__text {
         padding: 0 !important;
         font-size: 4.1vw !important;
-        width: 75% !important;
+        width: 86% !important;
     }
 }
 
@@ -150,6 +149,6 @@ $breakpoint-xsml-cellphone: 400px;
     }
 
     .contact-glass-card__text {
-        font-size: 6vw !important;
+        font-size: 5.9vw !important;
     }
 }
