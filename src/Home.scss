@@ -2,7 +2,7 @@ $breakpoint-laptop: 1025px;
 $breakpoint-cellphone: 600px;
 
 .home-container {
-    font-size: 1.8em;
+    font-size: 2em;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -75,7 +75,7 @@ $breakpoint-cellphone: 600px;
 
 @media (max-width: $breakpoint-laptop) {
     .home-container {
-        font-size: 1.6em;
+        font-size: 2.3em;
         animation: fade-in-home-laptop 3.5s ease-in-out;
         animation-fill-mode: forwards;
 
