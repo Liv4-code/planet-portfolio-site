@@ -1,5 +1,17 @@
 import "./Projects.scss";
 import { Typewriter } from "react-simple-typewriter";
+import { gsap } from "gsap";
+
+// setting global animations timeline
+const timeline = gsap.timeline({
+    defaults: { duration: 1.75, ease: "sine.out" },
+});
+
+timeline.fromTo(
+    ".projects",
+    { opacity: 0, y: "-20vh" },
+    { opacity: 1, y: "-2vh" }
+);
 
 function Projects() {
     return (
